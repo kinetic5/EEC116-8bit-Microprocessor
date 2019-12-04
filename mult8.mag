@@ -1,14 +1,17 @@
 magic
 tech scmos
-timestamp 1575445287
+timestamp 1575493783
 << metal2 >>
-rect 109 70 114 75
-rect 341 70 346 75
-rect 573 70 578 75
-rect 805 70 810 75
-rect 1037 70 1042 75
-rect 1269 70 1274 75
-rect 1501 70 1506 75
+rect -136 144 -130 149
+rect 96 144 102 149
+rect 328 144 334 149
+rect 560 144 566 149
+rect 792 144 798 149
+rect 1024 144 1030 149
+rect 1256 144 1262 149
+rect 1488 144 1494 149
+rect -123 68 -118 72
+rect 109 68 114 72
 rect 109 -3 114 2
 rect 341 -75 346 -70
 rect 573 -147 578 -142
@@ -17,36 +20,44 @@ rect 1037 -291 1042 -286
 rect 1269 -363 1274 -358
 rect 1501 -435 1506 -430
 << metal3 >>
-rect 4 70 9 75
-rect 236 70 241 75
-rect 468 70 473 75
-rect 700 70 705 75
-rect 932 70 937 75
-rect 1164 70 1169 75
-rect 1391 70 1401 75
+rect -239 127 -232 133
+rect -7 65 0 72
+rect 1396 70 1401 75
 rect -5 56 0 61
-rect -6 40 0 46
+rect -6 8 0 46
+rect -6 2 12 8
 rect 225 -7 232 0
 rect 227 -16 232 -11
-rect 226 -32 232 -26
+rect 226 -64 232 -26
+rect 226 -70 244 -64
 rect 457 -79 464 -72
 rect 459 -88 464 -83
-rect 458 -104 464 -98
+rect 458 -136 464 -98
+rect 458 -142 476 -136
 rect 689 -151 696 -144
 rect 691 -160 696 -155
-rect 690 -176 696 -170
+rect 690 -208 696 -170
+rect 690 -214 708 -208
 rect 921 -223 928 -216
 rect 923 -232 928 -227
-rect 922 -248 928 -242
+rect 922 -280 928 -242
+rect 922 -286 940 -280
 rect 1153 -295 1160 -288
 rect 1155 -304 1160 -299
-rect 1154 -320 1160 -314
+rect 1154 -352 1160 -314
+rect 1154 -358 1172 -352
 rect 1385 -367 1392 -360
 rect 1387 -376 1392 -371
-rect 1386 -392 1392 -386
+rect 1386 -424 1392 -386
+rect 1386 -430 1404 -424
 << metal4 >>
-rect 1396 -430 1420 83
-rect 1573 -370 1597 81
+rect 1396 -430 1420 162
+rect 1573 -370 1597 164
+use pand  pand_0
+array 0 7 232 0 0 72
+timestamp 1575493783
+transform 1 0 -232 0 1 136
+box 0 -64 232 8
 use psum  psum_0
 array 0 6 232 0 0 72
 timestamp 1575442198
@@ -91,20 +102,6 @@ rlabel metal3 693 -157 693 -157 1 y4
 rlabel metal3 925 -230 925 -230 1 y5
 rlabel metal3 1157 -302 1157 -302 1 y6
 rlabel metal3 1389 -374 1389 -374 1 y7
-rlabel metal3 1394 72 1394 72 1 x7
-rlabel metal3 1167 72 1167 72 1 x6
-rlabel metal3 934 73 934 73 1 x5
-rlabel metal3 702 73 702 73 1 x4
-rlabel metal3 471 72 471 72 1 x3
-rlabel metal3 238 73 238 73 1 x2
-rlabel metal3 7 72 7 72 1 x1
-rlabel metal2 111 73 111 73 1 p0
-rlabel metal2 343 73 343 73 1 p1
-rlabel metal2 575 72 575 72 1 p2
-rlabel metal2 807 73 807 73 1 p3
-rlabel metal2 1039 73 1039 73 1 p4
-rlabel metal2 1271 73 1271 73 1 p5
-rlabel metal2 1503 73 1503 73 1 p6
 rlabel metal2 112 -1 112 -1 1 z1
 rlabel metal2 344 -73 344 -73 1 z2
 rlabel metal2 576 -145 576 -145 1 z3
@@ -112,11 +109,17 @@ rlabel metal2 807 -217 807 -217 1 z4
 rlabel metal2 1039 -288 1039 -288 1 z5
 rlabel metal2 1271 -360 1271 -360 1 z6
 rlabel metal2 1503 -432 1503 -432 1 z7
-rlabel metal3 -3 43 -3 43 3 cin0
-rlabel metal3 229 -29 229 -29 1 cin1
-rlabel metal3 461 -101 461 -101 1 cin2
-rlabel metal3 693 -173 693 -173 1 cin3
-rlabel metal3 925 -245 925 -245 1 cin4
-rlabel metal3 1157 -317 1157 -317 1 cin5
-rlabel metal3 1389 -389 1389 -389 1 cin6
+rlabel metal3 -236 130 -236 130 3 y0
+rlabel metal2 -121 70 -121 70 1 z0
+rlabel metal2 -133 146 -133 146 1 x0
+rlabel metal2 98 146 98 146 1 x1
+rlabel metal2 331 145 331 145 1 x2
+rlabel metal2 563 146 563 146 1 x3
+rlabel metal2 795 146 795 146 1 x4
+rlabel metal2 1027 146 1027 146 1 x5
+rlabel metal2 1259 146 1259 146 1 x6
+rlabel metal2 1490 146 1490 146 1 x7
+rlabel metal2 111 70 111 70 1 z1_p
+rlabel metal3 -3 42 -3 42 1 z1_cin
+rlabel metal3 -4 68 -4 68 1 z1_x
 << end >>

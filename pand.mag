@@ -1,0 +1,125 @@
+magic
+tech scmos
+timestamp 1575493783
+<< ntransistor >>
+rect 90 -48 92 -44
+rect 100 -48 102 -44
+rect 110 -48 112 -44
+<< ptransistor >>
+rect 90 -32 92 -26
+rect 100 -32 102 -26
+rect 110 -32 112 -26
+<< ndiffusion >>
+rect 89 -48 90 -44
+rect 92 -48 100 -44
+rect 102 -48 103 -44
+rect 109 -48 110 -44
+rect 112 -48 113 -44
+<< pdiffusion >>
+rect 89 -32 90 -26
+rect 92 -32 93 -26
+rect 99 -32 100 -26
+rect 102 -32 103 -26
+rect 109 -32 110 -26
+rect 112 -32 113 -26
+<< ndcontact >>
+rect 83 -48 89 -44
+rect 103 -48 109 -44
+rect 113 -48 119 -44
+<< pdcontact >>
+rect 83 -32 89 -26
+rect 93 -32 99 -26
+rect 103 -32 109 -26
+rect 113 -32 119 -26
+<< polysilicon >>
+rect 0 -51 2 -5
+rect 10 -51 12 -5
+rect 20 -51 22 -5
+rect 30 -51 32 -5
+rect 40 -51 42 -5
+rect 50 -51 52 -5
+rect 60 -51 62 -5
+rect 70 -51 72 -5
+rect 80 -26 82 -5
+rect 90 -17 92 -5
+rect 100 -17 102 -5
+rect 90 -26 92 -23
+rect 100 -26 102 -23
+rect 110 -26 112 -5
+rect 80 -44 82 -32
+rect 90 -44 92 -32
+rect 100 -44 102 -32
+rect 110 -35 112 -32
+rect 110 -44 112 -41
+rect 80 -51 82 -48
+rect 90 -51 92 -48
+rect 100 -51 102 -48
+rect 110 -51 112 -48
+rect 120 -51 122 -5
+<< polycontact >>
+rect 108 -41 113 -35
+<< polypplus >>
+rect 80 -32 82 -26
+<< polynplus >>
+rect 80 -48 82 -44
+<< metal1 >>
+rect 0 -2 173 6
+rect 181 -2 189 6
+rect 197 -2 205 6
+rect 213 -2 232 6
+rect 78 -32 83 -2
+rect 105 -26 110 -2
+rect 109 -32 110 -26
+rect 119 -32 122 -26
+rect 93 -35 99 -32
+rect 83 -41 108 -35
+rect 83 -44 89 -41
+rect 119 -48 122 -44
+rect 103 -54 109 -48
+rect 0 -62 12 -54
+rect 20 -62 28 -54
+rect 36 -62 232 -54
+<< m2contact >>
+rect 116 -44 122 -32
+<< pm12contact >>
+rect 86 -23 92 -17
+rect 96 -23 102 -17
+<< metal2 >>
+rect 86 -17 92 -9
+rect 96 -17 102 8
+rect 96 -56 102 -23
+rect 116 -48 122 -44
+rect 109 -54 122 -48
+rect 109 -64 114 -54
+<< m3contact >>
+rect 86 -9 92 -3
+rect 96 -62 102 -56
+<< m123contact >>
+rect 173 -2 181 6
+rect 189 -2 197 6
+rect 205 -2 213 6
+rect 12 -62 20 -54
+rect 28 -62 36 -54
+<< metal3 >>
+rect 0 -9 86 -3
+rect 92 -6 169 -3
+rect 217 -6 232 -3
+rect 92 -9 232 -6
+rect 163 -12 223 -9
+rect 102 -62 232 -57
+rect 225 -64 232 -62
+<< m4contact >>
+rect 181 -2 189 6
+rect 197 -2 205 6
+rect 4 -62 12 -54
+rect 20 -62 28 -54
+<< metal4 >>
+rect 189 -2 197 6
+rect 12 -62 20 -54
+<< labels >>
+rlabel metal2 99 7 99 7 5 x
+rlabel metal2 111 -63 111 -63 1 z
+rlabel metal4 16 -58 16 -58 1 Gnd
+rlabel metal4 193 2 193 2 1 Vdd
+rlabel metal3 3 -6 3 -6 3 y
+<< end >>
