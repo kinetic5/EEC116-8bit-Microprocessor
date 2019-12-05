@@ -1,6 +1,10 @@
 magic
 tech scmos
-timestamp 1575442198
+timestamp 1575507198
+<< nwell >>
+rect -43 36 195 72
+<< pwell >>
+rect -43 4 195 36
 << ntransistor >>
 rect -30 26 -28 30
 rect -20 26 -18 30
@@ -164,6 +168,25 @@ rect 143 42 149 47
 rect 163 42 169 46
 rect 173 42 179 46
 rect 183 42 189 46
+<< psubstratepcontact >>
+rect -36 13 -31 18
+rect 1 7 6 12
+rect 32 7 37 12
+rect 59 7 64 12
+rect 85 7 90 12
+rect 111 7 116 12
+rect 138 7 143 12
+rect 163 7 168 12
+rect 187 7 192 12
+<< nsubstratencontact >>
+rect -31 64 -26 69
+rect 0 64 5 69
+rect 30 64 35 69
+rect 55 64 60 69
+rect 91 64 96 69
+rect 116 64 121 69
+rect 175 64 180 69
+rect 164 59 169 64
 << polysilicon >>
 rect -40 15 -38 54
 rect -30 48 -28 50
@@ -252,10 +275,19 @@ rect 118 50 122 54
 rect 147 32 152 39
 rect 160 33 165 39
 << metal1 >>
-rect -40 64 133 72
+rect -40 69 133 72
+rect -40 64 -31 69
+rect -26 64 0 69
+rect 5 64 30 69
+rect 35 64 55 69
+rect 60 64 91 69
+rect 96 64 116 69
+rect 121 64 133 69
 rect 141 64 149 72
 rect 157 64 165 72
-rect 173 64 192 72
+rect 173 69 192 72
+rect 173 64 175 69
+rect 180 64 192 69
 rect -37 46 -33 64
 rect -26 50 -22 54
 rect -17 48 -11 64
@@ -267,7 +299,7 @@ rect -27 39 -21 42
 rect -27 33 -2 39
 rect -17 30 -11 33
 rect 23 30 29 42
-rect -37 12 -31 26
+rect -37 18 -31 26
 rect 19 26 23 30
 rect 33 36 39 42
 rect 33 31 34 36
@@ -292,8 +324,9 @@ rect 103 30 108 34
 rect 112 42 114 47
 rect 125 46 130 64
 rect 145 47 149 64
+rect 163 59 164 64
 rect 129 42 130 46
-rect 163 46 169 64
+rect 163 46 169 59
 rect 185 46 189 64
 rect 112 30 116 42
 rect 133 39 139 42
@@ -305,6 +338,8 @@ rect 143 30 149 32
 rect 183 30 189 33
 rect 112 26 113 30
 rect 122 26 123 30
+rect -37 13 -36 18
+rect -37 12 -31 13
 rect 3 12 9 26
 rect 52 23 56 26
 rect 44 19 56 23
@@ -315,7 +350,15 @@ rect 122 12 127 26
 rect 163 12 167 26
 rect -40 4 -28 12
 rect -20 4 -12 12
-rect -4 4 192 12
+rect -4 7 1 12
+rect 6 7 32 12
+rect 37 7 59 12
+rect 64 7 85 12
+rect 90 7 111 12
+rect 116 7 138 12
+rect 143 7 163 12
+rect 168 7 187 12
+rect -4 4 192 7
 << m2contact >>
 rect 43 34 48 39
 rect 103 34 108 39
