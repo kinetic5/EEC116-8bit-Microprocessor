@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575493783
+timestamp 1575532970
 << metal2 >>
 rect -136 144 -130 149
 rect 96 144 102 149
@@ -55,43 +55,43 @@ rect 1396 -430 1420 162
 rect 1573 -370 1597 164
 use pand  pand_0
 array 0 7 232 0 0 72
-timestamp 1575493783
+timestamp 1575507270
 transform 1 0 -232 0 1 136
 box 0 -64 232 8
 use psum  psum_0
 array 0 6 232 0 0 72
-timestamp 1575442198
+timestamp 1575532930
 transform 1 0 40 0 1 -2
-box -40 2 192 74
+box -43 2 195 74
 use psum  psum_1
 array 0 5 232 0 0 72
-timestamp 1575442198
+timestamp 1575532930
 transform 1 0 272 0 1 -74
-box -40 2 192 74
+box -43 2 195 74
 use psum  psum_2
 array 0 4 232 0 0 72
-timestamp 1575442198
+timestamp 1575532930
 transform 1 0 504 0 1 -146
-box -40 2 192 74
+box -43 2 195 74
 use psum  psum_3
 array 0 3 232 0 0 72
-timestamp 1575442198
+timestamp 1575532930
 transform 1 0 736 0 1 -218
-box -40 2 192 74
+box -43 2 195 74
 use psum  psum_4
 array 0 2 232 0 0 72
-timestamp 1575442198
+timestamp 1575532930
 transform 1 0 968 0 1 -290
-box -40 2 192 74
+box -43 2 195 74
 use psum  psum_5
 array 0 1 232 0 0 72
-timestamp 1575442198
+timestamp 1575532930
 transform 1 0 1200 0 1 -362
-box -40 2 192 74
+box -43 2 195 74
 use psum  psum_6
-timestamp 1575442198
+timestamp 1575532930
 transform 1 0 1432 0 1 -434
-box -40 2 192 74
+box -43 2 195 74
 << labels >>
 rlabel metal4 1408 78 1408 78 5 Gnd
 rlabel metal4 1585 76 1585 76 1 Vdd
