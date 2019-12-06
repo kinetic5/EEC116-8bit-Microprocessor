@@ -1,0 +1,133 @@
+magic
+tech scmos
+timestamp 1575613539
+<< metal1 >>
+rect -9 10 -3 32
+rect -9 4 0 10
+rect 231 -62 237 -40
+rect 231 -68 239 -62
+rect 471 -134 477 -112
+rect 471 -140 479 -134
+rect 711 -206 717 -184
+rect 711 -212 719 -206
+rect 951 -278 957 -256
+rect 951 -284 959 -278
+rect 1191 -350 1197 -328
+rect 1191 -356 1199 -350
+rect 1431 -422 1437 -400
+rect 1431 -428 1439 -422
+<< metal2 >>
+rect 56 72 62 77
+rect 296 72 302 77
+rect 536 72 542 78
+rect 776 72 782 77
+rect 1016 72 1022 78
+rect 1256 72 1262 77
+rect 1496 72 1502 78
+rect 56 -6 62 0
+rect 296 -78 302 -72
+rect 536 -150 542 -144
+rect 776 -222 782 -216
+rect 1016 -295 1022 -288
+rect 1256 -366 1262 -360
+rect 1496 -437 1502 -432
+<< m123contact >>
+rect -9 32 -3 38
+rect 231 -40 237 -34
+rect 471 -112 477 -106
+rect 711 -184 717 -178
+rect 951 -256 957 -250
+rect 1191 -328 1197 -322
+rect 1431 -400 1437 -394
+<< metal3 >>
+rect 0 72 6 78
+rect 239 72 245 78
+rect 479 72 485 78
+rect 719 72 725 78
+rect 959 72 965 78
+rect 1199 72 1205 78
+rect 1439 72 1445 78
+rect -3 32 -1 38
+rect 237 -40 239 -34
+rect 477 -112 479 -106
+rect 717 -184 719 -178
+rect 957 -256 959 -250
+rect 1197 -328 1199 -322
+rect 1437 -400 1439 -394
+<< metal5 >>
+rect -9 51 -1 58
+rect 231 -21 239 -14
+rect 471 -93 479 -86
+rect 711 -165 719 -158
+rect 951 -237 959 -230
+rect 1191 -309 1199 -302
+rect 1431 -381 1439 -374
+<< metal6 >>
+rect 1633 -370 1641 81
+rect 1649 -430 1657 81
+use mult_fadder  mult_fadder_0
+array 0 6 240 0 0 72
+timestamp 1575613539
+transform 1 0 -7 0 1 -8
+box 6 8 246 80
+use mult_fadder  mult_fadder_1
+array 0 5 240 0 0 72
+timestamp 1575613539
+transform 1 0 233 0 1 -80
+box 6 8 246 80
+use mult_fadder  mult_fadder_2
+array 0 4 240 0 0 72
+timestamp 1575613539
+transform 1 0 473 0 1 -152
+box 6 8 246 80
+use mult_fadder  mult_fadder_3
+array 0 3 240 0 0 72
+timestamp 1575613539
+transform 1 0 713 0 1 -224
+box 6 8 246 80
+use mult_fadder  mult_fadder_4
+array 0 2 240 0 0 72
+timestamp 1575613539
+transform 1 0 953 0 1 -296
+box 6 8 246 80
+use mult_fadder  mult_fadder_5
+array 0 1 240 0 0 72
+timestamp 1575613539
+transform 1 0 1193 0 1 -368
+box 6 8 246 80
+use mult_fadder  mult_fadder_6
+timestamp 1575613539
+transform 1 0 1433 0 1 -440
+box 6 8 246 80
+<< labels >>
+rlabel metal3 2 75 2 75 5 x1
+rlabel metal3 242 75 242 75 5 x2
+rlabel metal3 482 74 482 74 5 x3
+rlabel metal3 722 75 722 75 5 x4
+rlabel metal3 962 75 962 75 5 x5
+rlabel metal3 1202 74 1202 74 5 x6
+rlabel metal3 1442 75 1442 75 5 x7
+rlabel metal2 1499 74 1499 74 5 p7
+rlabel metal2 1259 74 1259 74 5 p6
+rlabel metal2 1019 75 1019 75 5 p5
+rlabel metal2 779 74 779 74 5 p4
+rlabel metal2 539 74 539 74 5 p3
+rlabel metal2 299 74 299 74 5 p2
+rlabel metal2 59 74 59 74 5 p1
+rlabel metal6 1637 78 1637 78 5 Vdd
+rlabel metal6 1653 78 1653 78 5 Gnd
+rlabel metal5 -5 54 -5 54 3 y1
+rlabel metal5 235 -17 235 -17 1 y2
+rlabel metal5 475 -90 475 -90 1 y3
+rlabel metal5 715 -161 715 -161 1 y4
+rlabel metal5 955 -233 955 -233 1 y5
+rlabel metal5 1195 -306 1195 -306 1 y6
+rlabel metal5 1435 -377 1435 -377 1 y7
+rlabel metal2 59 -3 59 -3 1 z1
+rlabel metal2 299 -75 299 -75 1 z2
+rlabel metal2 539 -147 539 -147 1 z3
+rlabel metal2 779 -219 779 -219 1 z4
+rlabel metal2 1019 -291 1019 -291 1 z5
+rlabel metal2 1259 -364 1259 -364 1 z6
+rlabel metal2 1499 -434 1499 -434 1 z7
+<< end >>
