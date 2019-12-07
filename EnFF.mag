@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575761377
+timestamp 1575762367
 << ntransistor >>
 rect -7 -141 -5 -137
 rect 3 -141 5 -137
@@ -57,7 +57,7 @@ rect 1 -108 6 -103
 rect -9 -149 -4 -144
 rect 1 -149 6 -144
 << metal2 >>
-rect 30 -92 35 -90
+rect 30 -92 35 -89
 rect 1 -116 6 -108
 rect -2 -117 6 -116
 rect -11 -119 6 -117
@@ -69,10 +69,9 @@ rect -3 -128 5 -125
 rect 41 -126 44 -117
 rect -3 -132 2 -128
 rect -10 -149 -9 -144
-rect 11 -152 16 -132
-rect 180 -134 184 -129
-rect 11 -153 44 -152
-rect 11 -157 47 -153
+rect 11 -153 16 -132
+rect 179 -153 184 -129
+rect 11 -157 184 -153
 << m3contact >>
 rect -11 -113 -6 -108
 rect 5 -128 10 -123
@@ -86,9 +85,9 @@ rect 10 -128 40 -126
 rect 5 -131 40 -128
 rect -9 -149 6 -144
 use DFF  DFF_0
-timestamp 1575761377
+timestamp 1575762319
 transform 1 0 119 0 1 -128
-box -108 -32 68 38
+box -108 -32 68 36
 << labels >>
 rlabel metal1 -12 -132 -12 -132 1 D
 rlabel pm12contact -6 -146 -6 -146 1 EN
