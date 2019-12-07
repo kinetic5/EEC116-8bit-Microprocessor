@@ -1,9 +1,6 @@
 magic
 tech scmos
-timestamp 1575753858
-<< error_s >>
-rect 295 70 296 78
-rect 295 10 296 18
+timestamp 1575762114
 << ntransistor >>
 rect 30 23 32 27
 rect 40 23 42 27
@@ -73,6 +70,8 @@ rect 68 32 74 38
 << metal1 >>
 rect 6 70 208 78
 rect 216 70 246 78
+rect 251 70 453 78
+rect 461 70 491 78
 rect 23 45 29 70
 rect 43 45 49 70
 rect 53 36 59 53
@@ -83,6 +82,8 @@ rect 23 18 29 23
 rect 73 18 79 23
 rect 6 10 208 18
 rect 216 10 246 18
+rect 251 10 314 18
+rect 465 10 491 18
 << m2contact >>
 rect 8 30 14 36
 << pdm12contact >>
@@ -94,10 +95,14 @@ rect 63 23 69 29
 << metal2 >>
 rect 8 36 14 72
 rect 192 70 200 78
+rect 437 70 445 78
 rect 8 26 14 30
 rect 63 29 69 41
 rect 63 8 69 23
+rect 284 18 290 31
 rect 224 10 232 18
+rect 284 12 314 18
+rect 308 8 314 12
 << m3contact >>
 rect 6 72 14 80
 rect 33 33 39 39
@@ -105,11 +110,13 @@ rect 8 20 14 26
 rect 43 27 49 33
 << m123contact >>
 rect 208 70 216 78
+rect 453 70 461 78
 rect 53 53 59 59
 rect 74 32 80 38
 rect 208 10 216 18
 << metal3 >>
 rect 200 70 208 78
+rect 445 70 453 78
 rect 39 33 74 36
 rect 33 30 43 33
 rect 49 32 74 33
@@ -125,6 +132,7 @@ rect 237 14 243 22
 rect 237 8 246 14
 << m4contact >>
 rect 192 70 200 78
+rect 437 70 445 78
 rect 224 10 232 18
 << m345contact >>
 rect 53 59 59 65
@@ -132,21 +140,25 @@ rect 53 59 59 65
 rect 6 65 246 66
 rect 6 59 53 65
 rect 59 59 246 65
+rect 251 59 491 66
 << m456contact >>
 rect 200 70 208 78
+rect 445 70 453 78
 rect 216 10 224 18
 use and  and_0
-timestamp 1575751950
+timestamp 1575761714
 transform 1 0 251 0 1 6
-box 0 2 42 72
+box 0 4 42 72
 use dff  dff_0
-timestamp 1575753858
-transform 1 0 403 0 1 42
-box -108 -32 68 38
+timestamp 1575762114
+transform 1 0 397 0 1 42
+box -108 -32 68 36
 << labels >>
 rlabel metal2 66 9 66 9 1 z
 rlabel metal1 240 74 240 74 7 Vdd
 rlabel m3contact 13 23 13 23 1 x
 rlabel metal5 7 63 7 63 3 y
 rlabel m456contact 220 14 220 14 1 Gnd
+rlabel metal1 485 74 485 74 7 Vdd
+rlabel metal2 311 9 311 9 1 z
 << end >>

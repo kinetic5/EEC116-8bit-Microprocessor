@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575760463
+timestamp 1575762114
 << ntransistor >>
 rect -96 -13 -94 -9
 rect -86 -13 -84 -9
@@ -201,6 +201,7 @@ rect -46 -24 -44 -21
 rect 14 -24 16 -21
 rect 54 -24 56 -21
 << polycontact >>
+rect -96 -6 -92 -1
 rect 43 -6 47 -1
 << metal1 >>
 rect -108 35 68 36
@@ -214,11 +215,11 @@ rect -11 28 9 32
 rect 13 28 26 32
 rect 42 28 68 35
 rect -91 17 -87 28
-rect -104 11 -102 17
+rect -103 11 -102 17
 rect -78 11 -76 17
-rect -104 -9 -100 6
+rect -103 -9 -99 6
 rect -80 -9 -76 11
-rect -104 -13 -102 -9
+rect -103 -13 -102 -9
 rect -78 -13 -76 -9
 rect -71 -9 -68 11
 rect -62 -2 -58 11
@@ -275,6 +276,7 @@ rect -11 -31 27 -28
 rect 43 -31 68 -24
 rect -108 -32 68 -31
 << m2contact >>
+rect -92 -6 -87 -1
 rect -53 3 -48 8
 rect -61 -7 -56 -2
 rect -81 -18 -76 -13
@@ -287,7 +289,6 @@ rect 19 -15 24 -10
 rect -68 20 -63 25
 rect -58 20 -53 25
 rect -88 3 -83 8
-rect -97 -6 -92 -1
 rect -47 -6 -42 -1
 rect -68 -21 -63 -16
 rect -58 -21 -53 -16
@@ -303,7 +304,6 @@ rect 2 -21 7 -16
 << pdm12contact >>
 rect -72 11 -67 16
 << metal2 >>
-rect -89 8 -84 38
 rect -69 30 6 33
 rect -64 29 6 30
 rect 1 25 6 29
@@ -313,20 +313,19 @@ rect 1 20 2 25
 rect -59 16 -56 20
 rect -62 13 -56 16
 rect 1 17 6 20
-rect -89 3 -88 8
 rect -62 6 -58 13
 rect 1 9 4 17
 rect -70 2 -58 6
 rect -48 3 -31 8
 rect -9 5 4 9
 rect 13 5 26 10
-rect -96 -13 -91 -6
+rect -92 -13 -87 -6
 rect -70 -13 -66 2
 rect -56 -6 -47 -2
 rect -56 -7 -42 -6
 rect -28 -6 -18 -3
 rect -28 -7 -14 -6
-rect -96 -18 -81 -13
+rect -92 -18 -81 -13
 rect -76 -16 -66 -13
 rect -28 -16 -23 -7
 rect -76 -18 -68 -16
@@ -347,11 +346,12 @@ rect -13 20 -8 25
 rect -53 -21 -48 -16
 rect 7 -21 12 -16
 << m123contact >>
-rect -105 6 -100 11
+rect -103 6 -97 11
 << metal3 >>
-rect -104 25 -69 29
-rect -104 11 -100 25
-rect -69 -16 -64 25
+rect -103 25 -69 29
+rect -103 23 -64 25
+rect -103 11 -97 23
+rect -69 -16 -64 23
 rect -8 20 -3 25
 rect -8 9 -4 20
 rect -8 4 6 9
@@ -362,7 +362,7 @@ rect 1 -21 7 -16
 rlabel metal1 63 5 63 5 7 Qbar
 rlabel metal2 63 -4 63 -4 7 Q
 rlabel metal1 12 32 12 32 1 Vdd
-rlabel metal2 -87 37 -87 37 5 clk
 rlabel metal1 0 -30 0 -30 1 Gnd
 rlabel metal1 -71 1 -71 1 1 D
+rlabel pm12contact -86 5 -86 5 1 clk
 << end >>
