@@ -1,10 +1,6 @@
 magic
 tech scmos
-timestamp 1575748544
-<< nwell >>
-rect -25 9 81 45
-<< pwell >>
-rect -25 -27 81 9
+timestamp 1575752834
 << ntransistor >>
 rect -13 -2 -11 2
 rect -3 -2 -1 2

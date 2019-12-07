@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575698634
+timestamp 1575751950
 << ntransistor >>
 rect 10 25 12 29
 rect 20 25 22 29
@@ -58,7 +58,7 @@ rect 20 14 22 15
 rect 30 14 32 25
 rect 40 14 42 62
 rect 50 51 52 62
-rect 50 37 52 45
+rect 50 42 52 45
 rect 50 29 52 32
 rect 50 14 52 25
 rect 60 14 62 62
@@ -67,17 +67,16 @@ rect 28 56 34 61
 rect 20 38 24 44
 rect 28 32 34 36
 rect 18 15 24 20
-rect 50 32 54 37
 << metal1 >>
 rect 0 64 62 72
 rect 3 51 9 64
 rect 34 56 43 61
 rect 53 51 59 64
 rect 42 45 43 51
-rect 42 44 47 45
-rect 24 38 47 44
+rect 42 44 46 45
+rect 24 38 46 44
 rect 28 36 34 38
-rect 42 29 47 38
+rect 42 29 46 38
 rect 3 12 9 25
 rect 42 25 43 29
 rect 24 15 43 20
@@ -85,10 +84,10 @@ rect 53 12 59 25
 rect 0 4 62 12
 << m2contact >>
 rect 43 55 49 61
-rect 50 37 55 42
 rect 43 15 49 21
 << pm12contact >>
 rect 9 33 14 42
+rect 49 32 54 42
 << pdm12contact >>
 rect 13 47 19 53
 rect 23 47 29 53
@@ -98,15 +97,11 @@ rect 13 23 19 29
 rect 23 23 29 29
 rect 33 23 39 29
 << metal2 >>
-rect 33 53 39 74
 rect 33 42 39 47
 rect 14 33 39 42
 rect 33 29 39 33
-rect 43 61 49 74
-rect 43 42 49 55
-rect 43 36 50 42
 rect 23 2 29 17
-rect 43 21 49 36
+rect 43 21 49 55
 << m3contact >>
 rect 13 53 19 59
 rect 23 53 29 59
@@ -118,7 +113,7 @@ rect 23 23 29 53
 << labels >>
 rlabel metal1 3 68 3 68 4 Vdd
 rlabel metal1 3 8 3 8 2 Gnd
-rlabel metal2 36 73 36 73 5 a
-rlabel metal2 46 73 46 73 5 b
 rlabel metal2 26 3 26 3 1 z
+rlabel m2contact 46 58 46 58 1 xor_b
+rlabel pdm12contact 36 50 36 50 1 xor_a
 << end >>

@@ -1,44 +1,6 @@
 magic
 tech scmos
-timestamp 1575682418
-<< error_s >>
-rect 25 51 32 58
-rect 265 -21 272 -14
-rect 505 -93 512 -86
-rect 745 -165 752 -158
-rect 985 -237 992 -230
-rect 1225 -309 1232 -302
-rect 1465 -381 1472 -374
-<< metal2 >>
-rect -184 67 -178 72
-rect 56 -6 62 0
-rect 296 -78 302 -72
-rect 536 -150 542 -144
-rect 776 -222 782 -216
-rect 1016 -295 1022 -288
-rect 1256 -366 1262 -360
-rect 1496 -437 1502 -432
-<< metal3 >>
-rect -241 144 -233 152
-rect -1 144 7 152
-rect 239 144 247 152
-rect 479 144 487 152
-rect 719 144 727 152
-rect 959 144 967 152
-rect 1199 144 1207 152
-rect 1439 144 1447 152
-<< metal5 >>
-rect -249 123 -241 130
-rect -9 51 -1 58
-rect 231 -21 239 -14
-rect 471 -93 479 -86
-rect 711 -165 719 -158
-rect 951 -237 959 -230
-rect 1191 -309 1199 -302
-rect 1431 -381 1439 -374
-<< metal6 >>
-rect 1633 -370 1641 156
-rect 1649 -430 1657 156
+timestamp 1575750232
 use mult_and  mult_and_0
 array 0 7 240 0 0 72
 timestamp 1575617768
@@ -101,31 +63,4 @@ use mult_hadder  mult_hadder_6
 timestamp 1575682418
 transform 1 0 1433 0 1 -439
 box 6 7 246 79
-<< labels >>
-rlabel metal5 -5 54 -5 54 3 y1
-rlabel metal5 235 -17 235 -17 1 y2
-rlabel metal5 475 -90 475 -90 1 y3
-rlabel metal5 715 -161 715 -161 1 y4
-rlabel metal5 955 -233 955 -233 1 y5
-rlabel metal5 1195 -306 1195 -306 1 y6
-rlabel metal5 1435 -377 1435 -377 1 y7
-rlabel metal2 59 -3 59 -3 1 z1
-rlabel metal2 299 -75 299 -75 1 z2
-rlabel metal2 539 -147 539 -147 1 z3
-rlabel metal2 779 -219 779 -219 1 z4
-rlabel metal2 1019 -291 1019 -291 1 z5
-rlabel metal2 1259 -364 1259 -364 1 z6
-rlabel metal2 1499 -434 1499 -434 1 z7
-rlabel metal2 -181 71 -181 71 1 z0
-rlabel metal5 -245 126 -245 126 3 y0
-rlabel metal3 3 147 3 147 5 x1
-rlabel metal3 243 148 243 148 5 x2
-rlabel metal3 483 148 483 148 5 x3
-rlabel metal3 723 148 723 148 5 x4
-rlabel metal3 963 148 963 148 5 x5
-rlabel metal3 1203 148 1203 148 5 x6
-rlabel metal3 1443 148 1443 148 5 x7
-rlabel metal3 -238 148 -238 148 1 x0
-rlabel metal6 1653 78 1653 78 5 Gnd
-rlabel metal6 1637 78 1637 78 5 Vdd
 << end >>
