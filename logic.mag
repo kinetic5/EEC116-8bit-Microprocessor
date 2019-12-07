@@ -1,18 +1,18 @@
 magic
 tech scmos
-timestamp 1575752834
+timestamp 1575762611
 use or  or_0
 timestamp 1575751950
 transform -1 0 133 0 1 -2
 box 0 2 42 72
+use and  and_0
+timestamp 1575761714
+transform 1 0 171 0 1 -2
+box 0 4 42 72
 use xor  xor_0
 timestamp 1575751950
 transform 1 0 121 0 1 -2
 box 0 2 62 72
-use and  and_0
-timestamp 1575751950
-transform 1 0 171 0 1 -2
-box 0 2 42 72
 use four_1_mux  four_1_mux_0
 timestamp 1575752834
 transform 1 0 234 0 1 27

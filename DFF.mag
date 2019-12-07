@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575762319
+timestamp 1575763138
 << ntransistor >>
 rect -96 -13 -94 -9
 rect -86 -13 -84 -9
@@ -98,7 +98,7 @@ rect 46 11 48 16
 rect -102 -13 -97 -9
 rect -93 -13 -87 -9
 rect -83 -13 -78 -9
-rect -71 -13 -67 -9
+rect -73 -13 -67 -9
 rect -62 -13 -58 -9
 rect -53 -13 -49 -9
 rect -41 -21 -37 -17
@@ -221,7 +221,8 @@ rect -103 -9 -99 6
 rect -80 -9 -76 11
 rect -103 -13 -102 -9
 rect -78 -13 -76 -9
-rect -71 -9 -68 11
+rect -73 11 -72 16
+rect -73 -9 -68 11
 rect -62 -2 -58 11
 rect -53 11 -52 16
 rect -53 8 -50 11
@@ -248,12 +249,11 @@ rect 6 -13 8 -9
 rect 20 -10 23 20
 rect 37 17 43 28
 rect 48 25 53 28
+rect 62 20 63 25
 rect 52 11 54 16
 rect 28 10 31 11
 rect 28 -9 31 5
 rect 50 -1 54 11
-rect 59 7 62 20
-rect 59 3 68 7
 rect 39 -6 43 -1
 rect 50 -6 51 -1
 rect 50 -9 54 -6
@@ -263,7 +263,8 @@ rect 52 -13 54 -9
 rect 19 -17 23 -15
 rect 22 -21 23 -17
 rect 37 -24 43 -13
-rect 59 -17 62 3
+rect 59 -17 63 20
+rect 62 -21 63 -17
 rect 48 -24 53 -21
 rect -108 -30 -65 -24
 rect -57 -28 -51 -24
@@ -332,7 +333,6 @@ rect -76 -18 -68 -16
 rect -70 -21 -68 -18
 rect -9 -16 -6 5
 rect 3 -6 12 -1
-rect 56 -6 68 -1
 rect 34 -10 38 -6
 rect 24 -15 38 -10
 rect -9 -21 -8 -16
@@ -355,10 +355,10 @@ rect 1 -16 6 4
 rect -69 -21 -53 -16
 rect 1 -21 7 -16
 << labels >>
-rlabel metal1 63 5 63 5 7 Qbar
-rlabel metal2 63 -4 63 -4 7 Q
 rlabel metal1 12 32 12 32 1 Vdd
 rlabel metal1 0 -30 0 -30 1 Gnd
 rlabel metal1 -71 1 -71 1 1 D
 rlabel pm12contact -86 5 -86 5 1 clk
+rlabel metal1 61 6 61 6 1 Qbar
+rlabel pm12contact 54 -4 54 -4 1 Q
 << end >>
