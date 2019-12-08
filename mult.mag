@@ -1,13 +1,28 @@
 magic
 tech scmos
-timestamp 1575764190
+timestamp 1575773777
+<< error_s >>
+rect 59 72 60 75
+rect 299 72 300 75
+rect 539 72 540 75
+rect 779 72 780 75
+rect 1019 72 1020 75
+rect 1259 72 1260 75
+rect 1499 72 1500 75
+rect 67 13 77 14
+rect 307 -59 317 -58
+rect 547 -131 557 -130
+rect 787 -203 797 -202
+rect 1027 -275 1037 -274
+rect 1267 -347 1277 -346
+rect 1507 -419 1517 -418
 use mult_and  mult_and_0
 array 0 7 240 0 0 72
-timestamp 1575764032
-transform 1 0 -492 0 1 64
-box 251 8 491 78
+timestamp 1575773608
+transform 1 0 -488 0 1 64
+box 247 8 487 78
 use mult_hadder  mult_hadder_0
-timestamp 1575682418
+timestamp 1575773130
 transform 1 0 -7 0 1 -7
 box 6 7 246 79
 use mult_fadder  mult_fadder_0
@@ -16,7 +31,7 @@ timestamp 1575623072
 transform 1 0 233 0 1 -8
 box 6 8 246 80
 use mult_hadder  mult_hadder_1
-timestamp 1575682418
+timestamp 1575773130
 transform 1 0 233 0 1 -79
 box 6 7 246 79
 use mult_fadder  mult_fadder_1
@@ -25,7 +40,7 @@ timestamp 1575623072
 transform 1 0 473 0 1 -80
 box 6 8 246 80
 use mult_hadder  mult_hadder_2
-timestamp 1575682418
+timestamp 1575773130
 transform 1 0 473 0 1 -151
 box 6 7 246 79
 use mult_fadder  mult_fadder_2
@@ -34,7 +49,7 @@ timestamp 1575623072
 transform 1 0 713 0 1 -152
 box 6 8 246 80
 use mult_hadder  mult_hadder_3
-timestamp 1575682418
+timestamp 1575773130
 transform 1 0 713 0 1 -223
 box 6 7 246 79
 use mult_fadder  mult_fadder_3
@@ -43,7 +58,7 @@ timestamp 1575623072
 transform 1 0 953 0 1 -224
 box 6 8 246 80
 use mult_hadder  mult_hadder_4
-timestamp 1575682418
+timestamp 1575773130
 transform 1 0 953 0 1 -295
 box 6 7 246 79
 use mult_fadder  mult_fadder_4
@@ -52,7 +67,7 @@ timestamp 1575623072
 transform 1 0 1193 0 1 -296
 box 6 8 246 80
 use mult_hadder  mult_hadder_5
-timestamp 1575682418
+timestamp 1575773130
 transform 1 0 1193 0 1 -367
 box 6 7 246 79
 use mult_fadder  mult_fadder_5
@@ -60,7 +75,7 @@ timestamp 1575623072
 transform 1 0 1433 0 1 -368
 box 6 8 246 80
 use mult_hadder  mult_hadder_6
-timestamp 1575682418
+timestamp 1575773130
 transform 1 0 1433 0 1 -439
 box 6 7 246 79
 << end >>

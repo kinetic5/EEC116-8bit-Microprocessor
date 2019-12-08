@@ -1,58 +1,58 @@
 magic
 tech scmos
-timestamp 1575764032
+timestamp 1575773608
 << metal1 >>
-rect 251 70 437 78
-rect 445 70 453 78
-rect 461 70 491 78
-rect 251 10 314 18
-rect 461 10 491 18
+rect 247 70 437 78
+rect 441 70 449 78
+rect 457 70 487 78
+rect 247 10 314 18
+rect 457 10 487 18
 << metal2 >>
 rect 284 18 290 31
 rect 284 12 314 18
 rect 308 8 314 12
-rect 469 10 477 18
+rect 465 10 473 18
 << m3contact >>
 rect 295 36 301 42
 << m123contact >>
-rect 453 70 461 78
-rect 453 10 461 18
+rect 449 70 457 78
+rect 449 10 457 18
 << metal3 >>
-rect 445 70 453 78
+rect 441 70 449 78
 rect 259 42 265 59
 rect 275 36 295 42
 rect 301 16 307 42
-rect 442 22 488 28
-rect 442 16 448 22
-rect 251 8 259 14
-rect 301 10 448 16
-rect 461 10 469 18
-rect 482 14 488 22
-rect 482 8 491 14
+rect 437 22 484 28
+rect 437 16 443 22
+rect 247 8 255 14
+rect 301 10 443 16
+rect 457 10 465 18
+rect 478 14 484 22
+rect 478 8 487 14
 << m4contact >>
-rect 461 70 469 78
-rect 469 10 477 18
+rect 457 70 465 78
+rect 465 10 473 18
 << metal4 >>
-rect 453 70 461 78
+rect 449 70 457 78
 << m345contact >>
 rect 259 59 266 66
 << metal5 >>
-rect 251 59 259 66
-rect 266 59 491 66
+rect 247 59 259 66
+rect 266 59 487 66
 << m456contact >>
-rect 445 70 453 78
-rect 461 10 469 18
+rect 441 70 449 78
+rect 457 10 465 18
 use and  and_0
-timestamp 1575762800
+timestamp 1575772227
 transform 1 0 251 0 1 6
 box 0 4 42 72
 use dff  dff_0
-timestamp 1575763803
+timestamp 1575773579
 transform -1 0 357 0 1 42
 box -108 -32 68 36
 << labels >>
-rlabel metal2 311 9 311 9 1 z
-rlabel metal5 253 62 253 62 1 y
-rlabel m456contact 465 14 465 14 1 Gnd
+rlabel m456contact 461 14 461 14 1 Gnd
 rlabel metal1 485 74 485 74 7 Vdd
+rlabel metal5 253 62 253 62 1 y
+rlabel metal2 311 9 311 9 1 z
 << end >>
