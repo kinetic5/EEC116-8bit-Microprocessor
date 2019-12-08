@@ -1,0 +1,14 @@
+magic
+tech scmos
+timestamp 1575764278
+<< metal6 >>
+rect 1874 62 1882 593
+rect 1890 2 1898 593
+use mult  mult_0
+timestamp 1575764190
+transform 1 0 241 0 1 432
+box -241 -432 1679 142
+<< labels >>
+rlabel metal6 1878 590 1878 590 5 Vdd
+rlabel metal6 1894 589 1894 589 5 Gnd
+<< end >>

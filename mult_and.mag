@@ -1,176 +1,58 @@
 magic
 tech scmos
-timestamp 1575763138
-<< ntransistor >>
-rect 30 23 32 27
-rect 40 23 42 27
-rect 70 23 72 29
-<< ptransistor >>
-rect 30 39 32 45
-rect 40 39 42 45
-rect 70 41 72 50
-<< ndiffusion >>
-rect 29 23 30 27
-rect 32 23 40 27
-rect 42 23 43 27
-rect 69 23 70 29
-rect 72 23 73 29
-<< pdiffusion >>
-rect 29 39 30 45
-rect 32 39 33 45
-rect 39 39 40 45
-rect 42 39 43 45
-rect 69 41 70 50
-rect 72 41 73 50
-<< ndcontact >>
-rect 23 23 29 27
-rect 73 23 79 29
-<< pdcontact >>
-rect 23 39 29 45
-rect 43 39 49 45
-rect 73 41 79 50
-<< polysilicon >>
-rect 10 20 12 68
-rect 20 20 22 68
-rect 30 45 32 68
-rect 40 45 42 68
-rect 30 36 32 39
-rect 40 36 42 39
-rect 30 27 32 30
-rect 40 27 42 30
-rect 30 20 32 23
-rect 40 20 42 23
-rect 50 20 52 68
-rect 60 20 62 68
-rect 70 50 72 68
-rect 70 38 72 41
-rect 70 29 72 32
-rect 70 20 72 23
-rect 80 20 82 68
-rect 90 20 92 68
-rect 100 20 102 68
-rect 110 20 112 68
-rect 120 20 122 68
-rect 130 20 132 68
-rect 140 20 142 68
-rect 150 20 152 68
-rect 160 20 162 68
-rect 170 20 172 68
-rect 180 20 182 68
-rect 190 20 192 68
-rect 200 20 202 68
-rect 210 20 212 68
-rect 220 20 222 68
-rect 230 20 232 68
-rect 240 20 242 68
-<< polycontact >>
-rect 28 30 34 36
-rect 38 30 44 36
-rect 68 32 74 38
+timestamp 1575764032
 << metal1 >>
-rect 6 70 208 78
-rect 216 70 246 78
-rect 251 70 453 78
+rect 251 70 437 78
+rect 445 70 453 78
 rect 461 70 491 78
-rect 23 45 29 70
-rect 43 45 49 70
-rect 53 36 59 53
-rect 73 50 79 70
-rect 14 30 28 36
-rect 44 30 59 36
-rect 23 18 29 23
-rect 73 18 79 23
-rect 6 10 208 18
-rect 216 10 246 18
 rect 251 10 314 18
 rect 461 10 491 18
-<< m2contact >>
-rect 8 30 14 36
-<< pdm12contact >>
-rect 33 39 39 45
-rect 63 41 69 50
-<< ndm12contact >>
-rect 43 21 49 27
-rect 63 23 69 29
 << metal2 >>
-rect 8 36 14 72
-rect 192 70 200 78
-rect 437 70 445 78
-rect 8 26 14 30
-rect 63 29 69 41
-rect 63 8 69 23
 rect 284 18 290 31
-rect 224 10 232 18
 rect 284 12 314 18
 rect 308 8 314 12
 rect 469 10 477 18
 << m3contact >>
-rect 6 72 14 80
-rect 33 33 39 39
-rect 8 20 14 26
-rect 43 27 49 33
 rect 295 36 301 42
 << m123contact >>
-rect 208 70 216 78
 rect 453 70 461 78
-rect 53 53 59 59
-rect 74 32 80 38
-rect 208 10 216 18
 rect 453 10 461 18
 << metal3 >>
-rect 200 70 208 78
 rect 445 70 453 78
 rect 259 42 265 59
-rect 39 33 74 36
-rect 33 30 43 33
-rect 49 32 74 33
 rect 275 36 295 42
-rect 49 30 80 32
-rect 14 20 25 26
-rect 19 16 25 20
-rect 163 22 243 28
-rect 163 16 169 22
-rect 6 8 14 14
-rect 19 10 169 16
-rect 216 10 224 18
-rect 237 14 243 22
-rect 237 8 246 14
+rect 301 16 307 42
+rect 442 22 488 28
+rect 442 16 448 22
+rect 251 8 259 14
+rect 301 10 448 16
 rect 461 10 469 18
+rect 482 14 488 22
+rect 482 8 491 14
 << m4contact >>
-rect 192 70 200 78
-rect 437 70 445 78
-rect 224 10 232 18
+rect 461 70 469 78
 rect 469 10 477 18
+<< metal4 >>
+rect 453 70 461 78
 << m345contact >>
-rect 53 59 59 65
 rect 259 59 266 66
 << metal5 >>
-rect 6 65 246 66
-rect 6 59 53 65
-rect 59 59 246 65
 rect 251 59 259 66
 rect 266 59 491 66
 << m456contact >>
-rect 200 70 208 78
 rect 445 70 453 78
-rect 216 10 224 18
 rect 461 10 469 18
 use and  and_0
 timestamp 1575762800
 transform 1 0 251 0 1 6
 box 0 4 42 72
 use dff  dff_0
-timestamp 1575763138
+timestamp 1575763803
 transform -1 0 357 0 1 42
 box -108 -32 68 36
 << labels >>
-rlabel metal2 66 9 66 9 1 z
-rlabel metal1 240 74 240 74 7 Vdd
-rlabel m3contact 13 23 13 23 1 x
-rlabel metal5 7 63 7 63 3 y
-rlabel m456contact 220 14 220 14 1 Gnd
-rlabel metal1 485 74 485 74 7 Vdd
 rlabel metal2 311 9 311 9 1 z
 rlabel metal5 253 62 253 62 1 y
 rlabel m456contact 465 14 465 14 1 Gnd
+rlabel metal1 485 74 485 74 7 Vdd
 << end >>

@@ -1,20 +1,30 @@
 magic
 tech scmos
-timestamp 1575762611
+timestamp 1575772323
+<< metal1 >>
+rect 213 62 219 70
+rect 207 29 214 40
+rect 213 2 222 10
+<< metal3 >>
+rect 94 64 207 70
+rect 94 42 100 64
+rect 144 8 150 21
+rect 207 8 213 12
+rect 144 2 213 8
 use or  or_0
-timestamp 1575751950
+timestamp 1575772227
 transform -1 0 133 0 1 -2
-box 0 2 42 72
-use and  and_0
-timestamp 1575761714
-transform 1 0 171 0 1 -2
 box 0 4 42 72
 use xor  xor_0
-timestamp 1575751950
+timestamp 1575764352
 transform 1 0 121 0 1 -2
-box 0 2 62 72
-use four_1_mux  four_1_mux_0
-timestamp 1575752834
-transform 1 0 234 0 1 27
-box -25 -27 81 44
+box 0 4 62 72
+use and  and_0
+timestamp 1575772227
+transform 1 0 171 0 1 -2
+box 0 4 42 72
+use mux_4_to_1  mux_4_to_1_0
+timestamp 1575772227
+transform 1 0 221 0 1 64
+box -14 -64 106 8
 << end >>
