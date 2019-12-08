@@ -1,8 +1,6 @@
 magic
 tech scmos
-timestamp 1575773130
-<< error_p >>
-rect 74 20 78 21
+timestamp 1575779281
 << ntransistor >>
 rect 30 30 32 34
 rect 40 30 42 34
@@ -249,10 +247,9 @@ rect 83 35 89 46
 rect 114 43 120 58
 rect 83 34 94 35
 rect 89 29 94 34
-rect 88 17 94 29
+rect 88 16 94 29
 rect 114 26 120 37
-rect 78 16 84 17
-rect 63 10 84 16
+rect 63 10 94 16
 rect 63 7 69 10
 rect 224 9 232 17
 << m3contact >>
