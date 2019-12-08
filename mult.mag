@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575778145
+timestamp 1575778961
 << error_s >>
 rect 67 13 77 14
 rect 307 -59 317 -58
@@ -9,6 +9,15 @@ rect 787 -203 797 -202
 rect 1027 -275 1037 -274
 rect 1267 -347 1277 -346
 rect 1507 -419 1517 -418
+<< metal5 >>
+rect -481 123 -241 130
+rect -421 51 -241 58
+rect -181 -21 -1 -14
+rect 59 -93 239 -86
+rect 299 -165 479 -158
+rect 539 -237 719 -230
+rect 779 -309 959 -302
+rect 839 -381 1199 -374
 use mult_and  mult_and_0
 array 0 7 240 0 0 72
 timestamp 1575778145
