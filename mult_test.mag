@@ -1,6 +1,15 @@
 magic
 tech scmos
-timestamp 1575782557
+timestamp 1575783955
+<< metal1 >>
+rect -184 107 -182 111
+rect 56 108 59 112
+rect 296 108 299 111
+rect 536 108 539 115
+rect 776 107 779 111
+rect 1015 108 1019 112
+rect 1255 108 1259 111
+rect 1495 108 1498 112
 << metal2 >>
 rect -48 154 1637 159
 rect -48 114 -43 154
@@ -48,7 +57,7 @@ rect 1633 -370 1641 156
 rect 1649 -430 1657 156
 use mult_and  mult_and_0
 array 0 7 240 0 0 72
-timestamp 1575782557
+timestamp 1575783955
 transform 1 0 -488 0 1 64
 box 247 8 487 78
 use mult_hadder  mult_hadder_0
@@ -136,4 +145,12 @@ rlabel metal3 1145 147 1145 147 1 x5
 rlabel metal3 1385 147 1385 147 1 x6
 rlabel metal3 1625 147 1625 147 1 x7
 rlabel metal2 -45 156 -45 156 5 clk
+rlabel metal1 -183 109 -183 109 1 d0
+rlabel metal1 58 110 58 110 1 d1
+rlabel metal1 297 110 297 110 1 d2
+rlabel metal1 537 111 537 111 1 d3
+rlabel metal1 778 109 778 109 1 d4
+rlabel metal1 1017 110 1017 110 1 d5
+rlabel metal1 1257 109 1257 109 1 d6
+rlabel metal1 1496 110 1496 110 1 d7
 << end >>
