@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575762367
+timestamp 1575762951
 << ntransistor >>
 rect -7 -141 -5 -137
 rect 3 -141 5 -137
@@ -57,7 +57,6 @@ rect 1 -108 6 -103
 rect -9 -149 -4 -144
 rect 1 -149 6 -144
 << metal2 >>
-rect 30 -92 35 -89
 rect 1 -116 6 -108
 rect -2 -117 6 -116
 rect -11 -119 6 -117
@@ -66,6 +65,7 @@ rect -11 -120 1 -119
 rect -11 -129 -7 -120
 rect -10 -144 -7 -129
 rect -3 -128 5 -125
+rect 31 -125 36 -120
 rect 41 -126 44 -117
 rect -3 -132 2 -128
 rect -10 -149 -9 -144
@@ -92,9 +92,9 @@ box -108 -32 68 36
 rlabel metal1 -12 -132 -12 -132 1 D
 rlabel pm12contact -6 -146 -6 -146 1 EN
 rlabel metal3 3 -146 3 -146 1 ENbar
-rlabel metal2 32 -91 32 -91 5 clk
 rlabel metal2 182 -132 182 -132 7 Q
 rlabel metal1 182 -123 182 -123 7 Qbar
 rlabel metal1 119 -158 119 -158 1 Gnd
 rlabel metal1 131 -96 131 -96 1 Vdd
+rlabel metal2 33 -123 33 -123 1 clk
 << end >>
