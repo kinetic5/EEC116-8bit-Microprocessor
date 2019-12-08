@@ -1,6 +1,15 @@
 magic
 tech scmos
-timestamp 1575784742
+timestamp 1575837063
+<< error_s >>
+rect 286 85 287 86
+rect 526 85 527 86
+rect 766 85 767 86
+rect 1006 85 1007 86
+rect 1246 85 1247 86
+rect 1486 85 1487 86
+<< error_ps >>
+rect 46 85 47 86
 << metal2 >>
 rect 536 -144 542 -141
 rect 776 -216 782 -213
@@ -11,7 +20,7 @@ rect 1496 -432 1502 -428
 rect 1438 -381 1448 -374
 use mult_and  mult_and_0
 array 0 7 240 0 0 72
-timestamp 1575784742
+timestamp 1575836395
 transform 1 0 -488 0 1 64
 box 247 8 487 78
 use mult_hadder  mult_hadder_0

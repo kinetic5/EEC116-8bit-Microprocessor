@@ -1,6 +1,9 @@
 magic
 tech scmos
-timestamp 1575784742
+timestamp 1575837063
+<< error_s >>
+rect 47 517 48 518
+rect 287 517 288 518
 << m4contact >>
 rect -117 463 -108 472
 rect 123 391 132 400
@@ -96,7 +99,7 @@ timestamp 1575784742
 transform 1 0 1353 0 1 0
 box 87 2 327 70
 use mult  mult_0
-timestamp 1575784742
+timestamp 1575837063
 transform 1 0 241 0 1 432
 box -241 -432 1679 142
 << labels >>
