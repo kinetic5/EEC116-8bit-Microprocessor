@@ -1,14 +1,7 @@
 magic
 tech scmos
-timestamp 1575773777
+timestamp 1575778145
 << error_s >>
-rect 59 72 60 75
-rect 299 72 300 75
-rect 539 72 540 75
-rect 779 72 780 75
-rect 1019 72 1020 75
-rect 1259 72 1260 75
-rect 1499 72 1500 75
 rect 67 13 77 14
 rect 307 -59 317 -58
 rect 547 -131 557 -130
@@ -18,7 +11,7 @@ rect 1267 -347 1277 -346
 rect 1507 -419 1517 -418
 use mult_and  mult_and_0
 array 0 7 240 0 0 72
-timestamp 1575773608
+timestamp 1575778145
 transform 1 0 -488 0 1 64
 box 247 8 487 78
 use mult_hadder  mult_hadder_0
