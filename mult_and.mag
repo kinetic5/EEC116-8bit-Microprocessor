@@ -1,10 +1,10 @@
 magic
 tech scmos
-timestamp 1575845049
+timestamp 1575846026
 << ntransistor >>
 rect 451 33 453 37
 rect 461 33 463 37
-rect 471 25 473 29
+rect 471 24 473 28
 << ptransistor >>
 rect 471 59 473 65
 rect 451 49 453 55
@@ -13,52 +13,73 @@ rect 461 49 463 55
 rect 450 33 451 37
 rect 453 33 454 37
 rect 460 33 461 37
-rect 463 33 467 37
-rect 467 25 471 29
-rect 473 25 477 29
+rect 463 33 464 37
+rect 465 24 471 28
+rect 473 24 474 28
 << pdiffusion >>
-rect 467 59 471 65
-rect 473 59 477 65
+rect 470 59 471 65
+rect 473 59 474 65
 rect 450 49 451 55
 rect 453 49 454 55
 rect 460 49 461 55
-rect 463 49 467 55
+rect 463 49 464 55
 << ndcontact >>
 rect 454 33 460 37
+rect 474 24 480 28
 << pdcontact >>
+rect 474 59 480 65
 rect 454 49 460 55
 << polysilicon >>
-rect 451 55 453 67
-rect 461 55 463 67
+rect 451 65 453 67
+rect 461 65 463 68
 rect 471 65 473 68
+rect 451 55 453 59
+rect 461 55 463 59
 rect 451 46 453 49
 rect 461 46 463 49
+rect 471 46 473 59
 rect 451 37 453 40
 rect 461 37 463 40
 rect 451 21 453 33
-rect 461 21 463 33
-rect 471 29 473 59
-rect 471 21 473 25
+rect 461 29 463 33
+rect 471 28 473 40
+rect 461 21 463 23
+rect 471 21 473 24
 rect 481 21 483 67
+<< polycontact >>
+rect 450 59 454 65
+rect 459 59 463 65
+rect 471 40 475 46
+rect 459 23 463 29
 << metal1 >>
 rect 247 70 487 78
+rect 474 65 480 70
+rect 463 59 465 65
 rect 454 46 460 49
 rect 440 40 460 46
 rect 454 37 460 40
+rect 474 18 480 24
 rect 247 10 487 18
 << pdm12contact >>
+rect 465 59 470 65
 rect 444 49 450 55
+rect 464 49 470 55
 << ndm12contact >>
 rect 444 31 450 37
+rect 464 32 470 37
 << metal2 >>
 rect 284 18 290 31
 rect 284 17 291 18
 rect 284 11 310 17
 rect 304 8 310 11
+<< m123contact >>
+rect 444 59 450 65
+rect 475 40 481 46
 << metal3 >>
 rect 259 42 265 59
-rect 269 38 293 47
-rect 275 36 293 38
+rect 269 38 310 47
+rect 275 37 310 38
+rect 275 36 293 37
 rect 285 17 293 36
 rect 247 8 255 14
 rect 285 11 487 17
@@ -80,4 +101,5 @@ box 0 -61 150 7
 rlabel metal1 485 74 485 74 7 Vdd
 rlabel metal5 253 62 253 62 1 y
 rlabel metal2 307 9 307 9 1 z
+rlabel m123contact 478 43 478 43 1 enable
 << end >>
