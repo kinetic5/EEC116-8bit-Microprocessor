@@ -1,0 +1,139 @@
+magic
+tech scmos
+timestamp 1575782557
+<< metal2 >>
+rect -48 154 1637 159
+rect -48 114 -43 154
+rect 192 114 197 154
+rect 432 114 437 154
+rect 672 114 677 154
+rect 912 114 917 154
+rect 1152 114 1157 154
+rect 1392 114 1397 154
+rect 1632 114 1637 154
+rect -184 67 -178 72
+rect 56 -6 62 0
+rect 296 -78 302 -72
+rect 536 -150 542 -144
+rect 776 -222 782 -216
+rect 1016 -295 1022 -288
+rect 1256 -366 1262 -360
+rect 1496 -437 1502 -432
+<< metal3 >>
+rect -58 141 -52 151
+rect 182 137 188 149
+rect 422 137 428 149
+rect 662 137 668 150
+rect 902 137 908 150
+rect 1142 137 1148 150
+rect 1382 137 1388 150
+rect 1622 137 1628 153
+rect 231 -8 239 0
+rect 471 -80 479 -72
+rect 711 -152 719 -144
+rect 951 -224 959 -216
+rect 1191 -296 1199 -288
+rect 1431 -368 1439 -360
+<< metal5 >>
+rect -249 123 -241 130
+rect -9 51 -1 58
+rect 231 -21 239 -14
+rect 471 -93 479 -86
+rect 711 -165 719 -158
+rect 951 -237 959 -230
+rect 1191 -309 1199 -302
+rect 1431 -381 1439 -374
+<< metal6 >>
+rect 1633 -370 1641 156
+rect 1649 -430 1657 156
+use mult_and  mult_and_0
+array 0 7 240 0 0 72
+timestamp 1575782557
+transform 1 0 -488 0 1 64
+box 247 8 487 78
+use mult_hadder  mult_hadder_0
+timestamp 1575779281
+transform 1 0 -7 0 1 -7
+box 6 7 246 79
+use mult_fadder  mult_fadder_0
+array 0 5 240 0 0 72
+timestamp 1575623072
+transform 1 0 233 0 1 -8
+box 6 8 246 80
+use mult_hadder  mult_hadder_1
+timestamp 1575779281
+transform 1 0 233 0 1 -79
+box 6 7 246 79
+use mult_fadder  mult_fadder_1
+array 0 4 240 0 0 72
+timestamp 1575623072
+transform 1 0 473 0 1 -80
+box 6 8 246 80
+use mult_hadder  mult_hadder_2
+timestamp 1575779281
+transform 1 0 473 0 1 -151
+box 6 7 246 79
+use mult_fadder  mult_fadder_2
+array 0 3 240 0 0 72
+timestamp 1575623072
+transform 1 0 713 0 1 -152
+box 6 8 246 80
+use mult_hadder  mult_hadder_3
+timestamp 1575779281
+transform 1 0 713 0 1 -223
+box 6 7 246 79
+use mult_fadder  mult_fadder_3
+array 0 2 240 0 0 72
+timestamp 1575623072
+transform 1 0 953 0 1 -224
+box 6 8 246 80
+use mult_hadder  mult_hadder_4
+timestamp 1575779281
+transform 1 0 953 0 1 -295
+box 6 7 246 79
+use mult_fadder  mult_fadder_4
+array 0 1 240 0 0 72
+timestamp 1575623072
+transform 1 0 1193 0 1 -296
+box 6 8 246 80
+use mult_hadder  mult_hadder_5
+timestamp 1575779281
+transform 1 0 1193 0 1 -367
+box 6 7 246 79
+use mult_fadder  mult_fadder_5
+timestamp 1575623072
+transform 1 0 1433 0 1 -368
+box 6 8 246 80
+use mult_hadder  mult_hadder_6
+timestamp 1575779281
+transform 1 0 1433 0 1 -439
+box 6 7 246 79
+<< labels >>
+rlabel metal5 -5 54 -5 54 3 y1
+rlabel metal5 235 -17 235 -17 1 y2
+rlabel metal5 475 -90 475 -90 1 y3
+rlabel metal5 715 -161 715 -161 1 y4
+rlabel metal5 955 -233 955 -233 1 y5
+rlabel metal5 1195 -306 1195 -306 1 y6
+rlabel metal5 1435 -377 1435 -377 1 y7
+rlabel metal2 59 -3 59 -3 1 z1
+rlabel metal2 299 -75 299 -75 1 z2
+rlabel metal2 539 -147 539 -147 1 z3
+rlabel metal2 779 -219 779 -219 1 z4
+rlabel metal2 1019 -291 1019 -291 1 z5
+rlabel metal2 1259 -364 1259 -364 1 z6
+rlabel metal2 1499 -434 1499 -434 1 z7
+rlabel metal2 -181 71 -181 71 1 z0
+rlabel metal5 -245 126 -245 126 3 y0
+rlabel metal6 1653 78 1653 78 5 Gnd
+rlabel metal6 1637 78 1637 78 5 Vdd
+rlabel metal3 -55 147 -55 147 1 x0
+rlabel metal3 185 146 185 146 1 x1
+rlabel metal3 424 146 424 146 1 x2
+rlabel metal3 665 146 665 146 1 x3
+rlabel metal3 905 147 905 147 1 x4
+rlabel metal3 1145 147 1145 147 1 x5
+rlabel metal3 1385 147 1385 147 1 x6
+rlabel metal3 1625 147 1625 147 1 x7
+rlabel metal2 -45 156 -45 156 5 clk
+<< end >>
