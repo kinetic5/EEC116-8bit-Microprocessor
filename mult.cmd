@@ -6,14 +6,14 @@ l x y clk
 s
 
 setvector x 00000000
+setvector y 00000000
 l clk
 s
 h clk
-setvector y 00000000
+s
 assert z 00000000
 
 setvector x 00000000
-
 setvector y 00000001
 l clk
 s
