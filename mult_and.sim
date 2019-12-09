@@ -1,0 +1,69 @@
+| units: 9 tech: scmos format: MIT
+p dff_0/a_34_n50# Vdd dff_0/a_56_n46# 2 6 392 59
+p dff_0/_clk d dff_0/transm01_out 2 6 432 49
+p dff_0/_nclk dff_0/transm01_out dff_0/a_26_n38# 2 6 422 49
+p dff_0/a_34_n50# dff_0/a_26_n38# Vdd 2 6 412 49
+p dff_0/transm01_out Vdd dff_0/a_34_n50# 2 6 402 49
+p dff_0/_nclk Vdd dff_0/_clk 2 6 342 59
+p dff_0/_nclk dff_0/a_56_n46# dff_0/transm23_out 2 6 382 49
+p dff_0/_clk dff_0/transm23_out dff_0/a_76_n38# 2 6 372 49
+p dff_0/a_84_n49# dff_0/a_76_n38# Vdd 2 6 362 49
+p dff_0/transm23_out Vdd dff_0/a_84_n49# 2 6 352 49
+n dff_0/_nclk d dff_0/transm01_out 2 4 432 33
+n dff_0/_clk dff_0/transm01_out dff_0/a_26_n38# 2 4 422 33
+n dff_0/a_34_n50# dff_0/a_26_n38# gnd 2 4 412 33
+n dff_0/transm01_out gnd dff_0/a_34_n50# 2 4 402 33
+p clk dff_0/_nclk Vdd 2 6 332 49
+p dff_0/a_84_n49# Vdd and_b 2 12 322 49
+p dff_0/a_84_n49# and_b Vdd 2 12 312 49
+n dff_0/_clk dff_0/a_56_n46# dff_0/transm23_out 2 4 382 33
+n dff_0/_nclk dff_0/transm23_out dff_0/a_76_n38# 2 4 372 33
+n dff_0/a_84_n49# dff_0/a_76_n38# gnd 2 4 362 33
+n dff_0/transm23_out gnd dff_0/a_84_n49# 2 4 352 33
+n dff_0/a_34_n50# gnd dff_0/a_56_n46# 2 4 392 25
+n clk dff_0/_nclk gnd 2 4 332 33
+n dff_0/_nclk gnd dff_0/_clk 2 4 342 25
+n dff_0/a_84_n49# gnd and_b 2 8 322 29
+n dff_0/a_84_n49# and_b gnd 2 8 312 29
+p y Vdd and_0/a_12_45# 2 6 261 51
+p and_b and_0/a_12_45# Vdd 2 6 271 51
+p and_0/a_12_45# Vdd z 2 9 281 51
+n and_b and_0/a_12_25# and_0/a_12_45# 2 4 271 35
+n y gnd and_0/a_12_25# 2 4 261 31
+n and_0/a_12_45# gnd z 2 6 281 25
+p enable a_459_59# Vdd 2 6 471 59
+p a_450_59# a_444_49# d 2 6 451 49
+p a_459_59# d a_463_49# 2 6 461 49
+n a_451_21# a_444_31# d 2 4 451 33
+n a_459_23# d a_463_33# 2 4 461 33
+n enable a_465_24# gnd 2 4 471 24
+R a_481_21# 177
+R a_463_33# 11
+R a_444_31# 11
+R a_459_23# 65
+R a_451_21# 73
+R enable 173
+R a_459_59# 85
+R a_450_59# 73
+R and_0/a_40_14# 185
+R and_0/a_12_25# 20
+R z 19
+R and_0/a_12_45# 198
+R y 176
+R and_0/a_0_14# 185
+R dff_0/a_144_n50# 177
+R and_b 196
+R clk 161
+R gnd 261
+R dff_0/a_76_n38# 24
+R dff_0/transm23_out 193
+R dff_0/a_84_n49# 545
+R dff_0/a_26_n38# 24
+R d 21
+R dff_0/a_56_n46# 49
+R Vdd 269
+R dff_0/transm01_out 197
+R dff_0/a_34_n50# 379
+R dff_0/_nclk 524
+R dff_0/_clk 342
+R dff_0/a_4_n50# 177
