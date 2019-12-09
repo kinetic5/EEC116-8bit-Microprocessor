@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575860607
+timestamp 1575862730
 << ntransistor >>
 rect -18 21 -16 27
 rect -8 23 -6 27
@@ -66,14 +66,14 @@ rect -43 60 -25 64
 rect -19 60 -2 64
 rect -40 50 -35 56
 rect -29 50 -28 56
-rect -40 30 -34 50
+rect -40 26 -34 50
 rect -19 40 -17 45
-rect -35 25 -34 30
-rect -40 19 -34 25
+rect -35 21 -34 26
 rect -19 21 -17 25
 rect -14 35 -9 39
 rect -14 30 9 35
 rect -14 27 -9 30
+rect -40 19 -34 21
 rect -40 15 -35 19
 rect -43 4 -25 8
 rect -20 4 0 8
@@ -89,7 +89,7 @@ rect -5 39 1 45
 rect -5 21 1 27
 << metal2 >>
 rect -40 48 -19 53
-rect -40 30 -35 48
+rect -40 26 -35 48
 rect -31 18 -26 32
 rect -31 13 -19 18
 << m3contact >>
@@ -97,19 +97,19 @@ rect -5 49 0 54
 rect -5 27 1 39
 rect -5 12 0 17
 << m123contact >>
-rect -40 25 -35 30
+rect -40 21 -35 26
 rect -31 32 -26 37
 rect -22 25 -17 40
 << metal3 >>
 rect -31 49 -5 54
 rect -31 37 -26 49
 rect 93 40 101 48
-rect -40 17 -35 25
+rect -40 17 -35 21
 rect -40 12 -5 17
 use dff  dff_0
-timestamp 1575860607
+timestamp 1575861070
 transform 1 0 -2 0 1 61
-box 0 -61 150 7
+box 0 -63 150 9
 << labels >>
 rlabel m3contact -2 34 -2 34 1 D
 rlabel metal1 -12 32 -12 32 1 mux_out
