@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575855885
+timestamp 1575858784
 << metal1 >>
 rect 87 62 91 70
 rect 213 62 219 70
@@ -29,7 +29,7 @@ timestamp 1575855885
 transform 1 0 171 0 1 -2
 box 0 4 42 72
 use mux_4_to_1  mux_4_to_1_0
-timestamp 1575855885
+timestamp 1575858784
 transform 1 0 221 0 1 64
 box -130 -62 106 6
 << end >>

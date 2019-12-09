@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575854905
+timestamp 1575860607
 << ntransistor >>
 rect -18 21 -16 27
 rect -8 23 -6 27
@@ -107,7 +107,7 @@ rect 93 40 101 48
 rect -40 17 -35 25
 rect -40 12 -5 17
 use dff  dff_0
-timestamp 1575847070
+timestamp 1575860607
 transform 1 0 -2 0 1 61
 box 0 -61 150 7
 << labels >>
