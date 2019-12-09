@@ -1,0 +1,73 @@
+magic
+tech scmos
+timestamp 1575777095
+<< metal1 >>
+rect 80 62 86 69
+rect 236 62 248 70
+rect 3 21 9 27
+rect 113 17 119 23
+rect 81 4 86 8
+rect 235 2 244 10
+<< metal2 >>
+rect 73 53 79 59
+rect 63 45 69 51
+rect 248 41 254 59
+rect 53 21 59 27
+<< metal3 >>
+rect 174 65 177 70
+rect 236 54 237 59
+rect 19 36 25 42
+rect 29 36 35 42
+rect 88 28 94 34
+rect 98 28 104 34
+rect 174 0 178 6
+<< m4contact >>
+rect 138 64 146 72
+rect 206 64 214 72
+rect 237 54 243 60
+rect 149 32 157 40
+rect 195 32 203 40
+rect 318 19 324 25
+rect 138 0 146 8
+rect 206 0 214 8
+<< metal4 >>
+rect 214 64 233 72
+rect 137 53 143 64
+rect 137 47 220 53
+rect 157 32 195 40
+rect 214 0 220 47
+rect 225 40 233 64
+rect 243 54 324 59
+rect 242 53 324 54
+rect 225 32 238 40
+rect 138 -7 146 0
+rect 230 -7 238 32
+rect 318 25 324 53
+rect 138 -15 238 -7
+use logic  logic_0
+timestamp 1575776886
+transform 1 0 -91 0 1 0
+box 87 2 327 70
+use fadder  fadder_0
+timestamp 1575776255
+transform -1 0 397 0 1 -4
+box -24 4 156 74
+<< labels >>
+rlabel metal1 83 66 83 66 1 Vdd
+rlabel metal3 32 39 32 39 1 or_b
+rlabel metal3 22 39 22 39 1 or_a
+rlabel metal1 6 24 6 24 1 or_z
+rlabel metal2 56 24 56 24 1 xor_z
+rlabel metal2 66 48 66 48 1 xor_a
+rlabel metal2 76 56 76 56 1 xor_b
+rlabel metal1 83 6 83 6 1 Gnd
+rlabel metal3 91 31 91 31 1 and_a
+rlabel metal3 101 31 101 31 1 and_b
+rlabel metal4 175 36 175 36 1 out
+rlabel m4contact 142 4 142 4 1 s1n
+rlabel metal3 176 4 176 4 1 s0
+rlabel m4contact 142 68 142 68 5 s1
+rlabel metal3 176 68 176 68 5 s0n
+rlabel metal4 321 28 321 28 1 S
+rlabel metal1 116 20 116 20 1 and_z
+<< end >>
