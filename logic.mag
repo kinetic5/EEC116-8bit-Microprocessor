@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575930433
+timestamp 1575945148
 << ntransistor >>
 rect 101 23 103 27
 rect 111 23 113 27
@@ -123,7 +123,8 @@ rect 181 12 183 23
 rect 191 12 193 27
 rect 201 12 203 60
 rect 211 12 213 60
-rect 221 12 223 60
+rect 221 40 223 60
+rect 221 12 223 34
 << polycontact >>
 rect 149 54 155 59
 rect 141 36 145 42
@@ -210,17 +211,25 @@ rect 189 28 195 34
 rect 97 31 103 37
 << metal3 >>
 rect 94 62 210 68
+rect 232 67 234 69
+rect 266 67 268 69
+rect 300 67 302 69
 rect 94 61 100 62
 rect 97 11 103 31
 rect 134 21 140 51
 rect 144 21 150 51
+rect 241 33 244 38
+rect 289 35 294 38
 rect 207 11 213 18
 rect 97 5 213 11
+rect 232 3 234 5
+rect 266 3 268 5
+rect 300 3 302 5
 << metal5 >>
 rect 111 51 200 58
 rect 215 51 327 58
 use mux_4_to_1  mux_4_to_1_0
-timestamp 1575929750
+timestamp 1575944855
 transform 1 0 221 0 1 64
 box -14 -62 106 6
 << labels >>
@@ -240,4 +249,12 @@ rlabel m3contact 192 31 192 31 1 nand_b
 rlabel metal1 199 38 199 38 1 nand_z
 rlabel pdm12contact 97 52 97 52 1 nxor_z
 rlabel m123contact 100 34 100 34 1 or_z
+rlabel metal3 233 4 233 4 1 s1n
+rlabel metal3 267 4 267 4 1 s0
+rlabel metal3 301 4 301 4 1 s1
+rlabel metal3 301 68 301 68 5 s1n
+rlabel metal3 267 68 267 68 5 s0n
+rlabel metal3 233 68 233 68 5 s1
+rlabel metal3 243 36 243 36 1 out
+rlabel metal3 291 36 291 36 1 out
 << end >>
