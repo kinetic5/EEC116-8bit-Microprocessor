@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1576013433
+timestamp 1576019639
 << metal1 >>
 rect 247 70 487 78
 rect 474 18 480 19
@@ -27,7 +27,7 @@ timestamp 1576013433
 transform 1 0 251 0 1 6
 box 0 4 42 72
 use inputff  inputff_0
-timestamp 1576013433
+timestamp 1576019529
 transform -1 0 421 0 1 130
 box -76 -120 134 -52
 << labels >>

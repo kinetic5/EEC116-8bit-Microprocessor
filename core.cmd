@@ -5,7 +5,8 @@ vector D d7 d6 d5 d4 d3 d2 d1 d0
 vector opcode opcode2 opcode1 opcode0
 w A B C D Actrl Bctrl Cen Den opcode clk
 l A B clk opcode
-h Actrl Bctrl Cen Den
+l Cen Den
+h Actrl Bctrl
 s
 
 setvector A 00000000

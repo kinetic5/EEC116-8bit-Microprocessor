@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1576013433
+timestamp 1576019529
 << ntransistor >>
 rect -62 -97 -60 -93
 rect -52 -97 -50 -93
@@ -222,8 +222,7 @@ rect 78 -75 80 -72
 rect 88 -75 90 -71
 rect 78 -84 80 -81
 rect 88 -84 90 -81
-rect 68 -88 70 -84
-rect 68 -104 70 -92
+rect 68 -104 70 -84
 rect 78 -93 80 -90
 rect 88 -93 90 -90
 rect 78 -102 80 -99
