@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575938069
+timestamp 1575946641
 << ntransistor >>
 rect 6 -44 8 -34
 rect 16 -44 18 -34
@@ -11,10 +11,10 @@ rect 56 -46 58 -34
 rect 66 -46 68 -34
 rect 76 -46 78 -34
 << ptransistor >>
-rect 6 -22 8 -8
-rect 16 -22 18 -8
-rect 26 -22 28 -8
-rect 36 -22 38 -8
+rect 6 -20 8 -6
+rect 16 -20 18 -6
+rect 26 -20 28 -6
+rect 36 -20 38 -6
 rect 46 -22 48 -4
 rect 56 -22 58 -4
 rect 66 -22 68 -4
@@ -40,15 +40,15 @@ rect 68 -46 69 -35
 rect 75 -46 76 -35
 rect 78 -46 79 -34
 << pdiffusion >>
-rect 5 -22 6 -8
-rect 8 -21 9 -8
-rect 15 -21 16 -8
-rect 8 -22 16 -21
-rect 18 -22 19 -8
-rect 25 -22 26 -8
-rect 28 -22 29 -8
-rect 35 -22 36 -8
-rect 38 -22 39 -8
+rect 5 -20 6 -6
+rect 8 -19 9 -6
+rect 15 -19 16 -6
+rect 8 -20 16 -19
+rect 18 -20 19 -6
+rect 25 -20 26 -6
+rect 28 -20 29 -6
+rect 35 -20 36 -6
+rect 38 -20 39 -6
 rect 45 -22 46 -4
 rect 48 -21 49 -4
 rect 55 -21 56 -4
@@ -66,25 +66,25 @@ rect 39 -46 45 -34
 rect 59 -46 65 -34
 rect 79 -46 85 -34
 << pdcontact >>
-rect -1 -22 5 -8
-rect 19 -22 25 -8
+rect -1 -20 5 -6
+rect 19 -20 25 -6
 rect 39 -22 45 -4
 rect 59 -22 65 -4
 rect 79 -22 85 -4
 << polysilicon >>
 rect -4 -49 -2 -1
-rect 6 -8 8 -1
-rect 16 -8 18 -1
-rect 26 -8 28 -1
-rect 36 -8 38 -1
+rect 6 -6 8 -1
+rect 16 -6 18 -1
+rect 26 -6 28 -1
+rect 36 -6 38 -1
 rect 46 -4 48 -1
 rect 56 -4 58 -1
 rect 66 -4 68 -1
 rect 76 -4 78 -1
-rect 6 -25 8 -22
-rect 16 -25 18 -22
-rect 26 -25 28 -22
-rect 36 -25 38 -22
+rect 6 -25 8 -20
+rect 16 -25 18 -20
+rect 26 -25 28 -20
+rect 36 -25 38 -20
 rect 46 -25 48 -22
 rect 56 -25 58 -22
 rect 66 -25 68 -22
@@ -113,8 +113,8 @@ rect 34 -31 40 -25
 rect 74 -31 80 -25
 << metal1 >>
 rect -8 1 92 9
-rect -1 -8 5 1
-rect 19 -8 25 1
+rect -1 -6 5 1
+rect 19 -6 25 1
 rect 39 -4 45 1
 rect 59 -4 65 1
 rect 79 -4 85 1
@@ -137,8 +137,8 @@ rect 44 -31 50 -25
 rect 54 -31 60 -25
 rect 64 -31 70 -25
 << pdm12contact >>
-rect 9 -21 15 -8
-rect 29 -22 35 -8
+rect 9 -19 15 -6
+rect 29 -20 35 -6
 rect 49 -21 55 -4
 rect 69 -21 75 -4
 << ndm12contact >>
@@ -147,7 +147,8 @@ rect 29 -44 35 -34
 rect 49 -46 55 -35
 rect 69 -46 75 -35
 << metal2 >>
-rect 15 -22 29 -8
+rect 15 -20 29 -6
+rect 35 -8 39 -6
 rect -2 -25 4 -24
 rect 35 -25 45 -8
 rect 55 -21 69 -4
