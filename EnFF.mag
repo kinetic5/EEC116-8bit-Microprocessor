@@ -1,121 +1,121 @@
 magic
 tech scmos
-timestamp 1575930433
+timestamp 1575941385
 << ntransistor >>
-rect -18 21 -16 27
-rect -8 23 -6 27
-rect -28 12 -26 16
+rect -19 21 -17 27
+rect -9 23 -7 27
+rect -29 12 -27 16
 << ptransistor >>
-rect -28 50 -26 56
-rect -18 39 -16 45
-rect -8 39 -6 45
+rect -29 50 -27 56
+rect -19 39 -17 45
+rect -9 39 -7 45
 << ndiffusion >>
-rect -25 25 -18 27
-rect -25 21 -24 25
-rect -19 21 -18 25
-rect -16 23 -14 27
-rect -9 23 -8 27
-rect -6 23 -5 27
-rect -16 21 -12 23
-rect -30 15 -28 16
-rect -35 12 -28 15
-rect -26 12 -20 16
-rect -25 8 -20 12
+rect -26 25 -19 27
+rect -26 21 -25 25
+rect -20 21 -19 25
+rect -17 23 -15 27
+rect -10 23 -9 27
+rect -7 23 -6 27
+rect -17 21 -13 23
+rect -31 15 -29 16
+rect -36 12 -29 15
+rect -27 12 -21 16
+rect -26 8 -21 12
 << pdiffusion >>
-rect -25 56 -20 60
-rect -29 50 -28 56
-rect -26 50 -20 56
-rect -19 40 -18 45
-rect -25 39 -18 40
-rect -16 39 -14 45
-rect -9 39 -8 45
-rect -6 39 -5 45
+rect -26 56 -21 60
+rect -30 50 -29 56
+rect -27 50 -21 56
+rect -20 40 -19 45
+rect -26 39 -19 40
+rect -17 39 -15 45
+rect -10 39 -9 45
+rect -7 39 -6 45
 << ndcontact >>
-rect -35 15 -30 19
-rect -24 21 -19 25
-rect -14 23 -9 27
-rect -25 4 -20 8
+rect -36 15 -31 19
+rect -25 21 -20 25
+rect -15 23 -10 27
+rect -26 4 -21 8
 << pdcontact >>
-rect -25 60 -19 64
-rect -35 50 -29 56
-rect -25 40 -19 45
-rect -14 39 -9 45
+rect -26 60 -20 64
+rect -36 50 -30 56
+rect -26 40 -20 45
+rect -15 39 -10 45
 << polysilicon >>
-rect -38 11 -36 57
-rect -28 56 -26 59
-rect -18 53 -16 57
-rect -8 54 -6 57
-rect -28 32 -26 50
-rect -18 45 -16 48
-rect -8 45 -6 49
-rect -18 36 -16 39
-rect -8 36 -6 39
-rect -28 16 -26 28
-rect -18 27 -16 30
-rect -8 27 -6 30
-rect -18 18 -16 21
-rect -8 17 -6 23
-rect -28 9 -26 12
-rect -18 11 -16 13
-rect -8 11 -6 12
+rect -39 11 -37 57
+rect -29 56 -27 59
+rect -19 53 -17 57
+rect -9 54 -7 57
+rect -29 32 -27 50
+rect -19 45 -17 48
+rect -9 45 -7 49
+rect -19 36 -17 39
+rect -9 36 -7 39
+rect -29 16 -27 28
+rect -19 27 -17 30
+rect -9 27 -7 30
+rect -19 18 -17 21
+rect -9 17 -7 23
+rect -29 9 -27 12
+rect -19 11 -17 13
+rect -9 11 -7 12
 << polycontact >>
-rect -30 28 -26 32
+rect -31 28 -27 32
 << metal1 >>
-rect -43 64 -2 68
-rect -43 60 -25 64
-rect -19 60 -2 64
-rect -40 50 -35 56
-rect -29 50 -28 56
-rect -40 26 -34 50
-rect -19 40 -17 45
-rect -35 21 -34 26
-rect -19 21 -17 25
-rect -14 35 -9 39
-rect -14 30 9 35
-rect -14 27 -9 30
-rect -40 19 -34 21
-rect -40 15 -35 19
-rect -43 4 -25 8
-rect -20 4 0 8
-rect -43 0 0 4
+rect -43 64 -3 68
+rect -43 60 -26 64
+rect -20 60 -3 64
+rect -41 50 -36 56
+rect -30 50 -29 56
+rect -41 26 -35 50
+rect -20 40 -18 45
+rect -36 21 -35 26
+rect -20 21 -18 25
+rect -15 35 -10 39
+rect -15 30 8 35
+rect -15 27 -10 30
+rect -41 19 -35 21
+rect -41 15 -36 19
+rect -43 4 -26 8
+rect -21 4 -1 8
+rect -43 0 -1 4
 << pm12contact >>
-rect -19 48 -14 53
-rect -10 49 -5 54
-rect -19 13 -14 18
-rect -10 12 -5 17
+rect -20 48 -15 53
+rect -11 49 -6 54
+rect -20 13 -15 18
+rect -11 12 -6 17
 << pdm12contact >>
-rect -5 39 1 45
+rect -6 39 0 45
 << ndm12contact >>
-rect -5 21 1 27
+rect -6 21 0 27
 << metal2 >>
-rect -40 48 -19 53
-rect -40 26 -35 48
-rect -31 18 -26 32
-rect -31 13 -19 18
+rect -41 48 -20 53
+rect -41 26 -36 48
+rect -32 18 -27 32
+rect -32 13 -20 18
 << m3contact >>
-rect -5 49 0 54
-rect -5 27 1 39
-rect -5 12 0 17
+rect -6 49 -1 54
+rect -6 27 0 39
+rect -6 12 -1 17
 << m123contact >>
-rect -40 21 -35 26
-rect -31 32 -26 37
-rect -22 25 -17 40
+rect -41 21 -36 26
+rect -32 32 -27 37
+rect -23 25 -18 40
 << metal3 >>
-rect -31 49 -5 54
-rect -31 37 -26 49
-rect 93 40 101 48
-rect -40 17 -35 21
-rect -40 12 -5 17
+rect -32 49 -6 54
+rect -32 37 -27 49
+rect 92 40 100 48
+rect -41 17 -36 21
+rect -41 12 -6 17
 use dff  dff_0
-timestamp 1575930433
-transform 1 0 -2 0 1 61
-box 0 -63 150 9
+timestamp 1575941385
+transform 1 0 -3 0 1 61
+box 0 -61 150 7
 << labels >>
-rlabel metal1 -12 32 -12 32 1 mux_out
-rlabel metal1 -13 64 -13 64 5 Vdd
-rlabel metal1 -14 4 -14 4 1 Gnd
-rlabel metal3 97 47 97 47 1 clk
-rlabel m123contact -29 34 -29 34 1 enable
-rlabel m123contact -20 32 -20 32 1 in_1
-rlabel m3contact -2 33 -2 33 1 in_0
+rlabel m3contact -3 33 -3 33 1 in_0
+rlabel m123contact -21 32 -21 32 1 in_1
+rlabel m123contact -30 34 -30 34 1 enable
+rlabel metal1 -15 4 -15 4 1 Gnd
+rlabel metal1 -14 64 -14 64 5 Vdd
+rlabel metal1 -13 32 -13 32 1 mux_out
+rlabel metal3 96 47 96 47 1 clk
 << end >>
