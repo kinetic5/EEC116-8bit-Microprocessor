@@ -2,9 +2,11 @@ vector x x7 x6 x5 x4 x3 x2 x1 x0
 vector y y7 y6 y5 y4 y3 y2 y1 y0
 vector z z7 z6 z5 z4 z3 z2 z1 z0
 vector nz nz7 nz6 nz5 nz4 nz3 nz2 nz1 nz0
-w x y z nz clk x_en c_en opcode2
-l x y clk opcode2
-h c_en x_en
+vector opcode opcode2 opcode1 opcode0
+vector _y _y7 _y6 _y5 _y4 _y3 _y2 _y1 _y0
+w x y z nz Actrl Bctrl c_en opcode clk
+l x y clk opcode
+h c_en Actrl Bctrl
 s
 
 setvector x 00000000
