@@ -1,8 +1,10 @@
 vector x x7 x6 x5 x4 x3 x2 x1 x0
 vector y y7 y6 y5 y4 y3 y2 y1 y0
 vector z z7 z6 z5 z4 z3 z2 z1 z0
-w x y z clk
-l x y clk
+vector nz nz7 nz6 nz5 nz4 nz3 nz2 nz1 nz0
+w x y z nz clk x_en c_en opcode2
+l x y clk x_en opcode2
+h c_en
 s
 
 setvector x 00000000

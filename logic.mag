@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1575929056
+timestamp 1575930433
 << ntransistor >>
 rect 101 23 103 27
 rect 111 23 113 27
@@ -220,7 +220,7 @@ rect 97 5 213 11
 rect 111 51 200 58
 rect 215 51 327 58
 use mux_4_to_1  mux_4_to_1_0
-timestamp 1575927292
+timestamp 1575929750
 transform 1 0 221 0 1 64
 box -14 -62 106 6
 << labels >>
