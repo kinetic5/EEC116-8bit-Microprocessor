@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1576014115
+timestamp 1576014485
 << metal1 >>
 rect 2508 566 2570 574
 rect 2510 508 2527 514
@@ -1886,14 +1886,6 @@ rlabel m345contact 941 308 941 308 1 nz3
 rlabel m5contact 1181 233 1181 233 1 nz4
 rlabel metal5 1420 160 1420 160 1 nz5
 rlabel m5contact 1824 582 1824 582 1 clk
-rlabel metal4 239 580 239 580 1 x0
-rlabel metal4 1439 580 1439 580 1 x5
-rlabel metal4 1679 581 1679 581 1 x6
-rlabel metal4 1920 581 1920 581 1 x7
-rlabel metal4 1199 581 1199 581 1 x4
-rlabel metal4 959 580 959 580 1 x3
-rlabel metal4 718 590 718 590 1 x2
-rlabel metal4 479 576 479 576 1 x1
 rlabel metal3 -318 251 -318 251 3 Actrl
 rlabel m5contact -238 177 -238 177 1 Bctrl
 rlabel metal4 538 24 538 24 1 opcode2
@@ -1905,21 +1897,13 @@ rlabel metal5 1639 -48 1639 -48 1 _nop0
 rlabel m4contact 170 49 170 49 1 opcode1
 rlabel metal4 -204 36 -204 36 1 opcode0
 rlabel metal4 57 395 57 395 1 _y0
-rlabel m345contact -246 395 -246 395 1 y0
 rlabel m4contact -20 322 -20 322 1 _y1
-rlabel m345contact -317 323 -317 323 3 y1
 rlabel m4contact 291 322 291 322 1 _y2
-rlabel m4contact -6 323 -6 323 1 y2
-rlabel m345contact -72 260 -72 260 1 y3
 rlabel m4contact 220 251 220 251 1 _y3
-rlabel metal4 238 240 238 240 1 y4
 rlabel m5contact 534 270 534 270 1 _y4
-rlabel metal4 476 180 476 180 1 y5
 rlabel m5contact 773 198 773 198 1 _y5
-rlabel metal4 716 109 716 109 1 y6
 rlabel m5contact 1013 125 1013 125 1 _y6
 rlabel m5contact 1073 54 1073 54 1 _y7
-rlabel metal4 776 38 776 38 1 y7
 rlabel metal4 -203 489 -203 489 1 _s0
 rlabel metal4 1934 546 1934 546 1 c_en
 rlabel metal5 1972 321 1972 321 1 z3
@@ -1962,4 +1946,20 @@ rlabel m4contact 2501 467 2501 467 1 d1
 rlabel m4contact 2501 538 2501 538 1 d0
 rlabel metal2 2531 24 2532 25 1 Gnd
 rlabel metal1 2565 67 2565 67 7 Vdd
+rlabel m345contact -246 395 -246 395 1 b0
+rlabel m345contact -317 323 -317 323 3 b1
+rlabel m4contact -6 323 -6 323 1 b2
+rlabel m345contact -72 260 -72 260 1 b3
+rlabel metal4 238 240 238 240 1 b4
+rlabel metal4 476 180 476 180 1 b5
+rlabel metal4 716 109 716 109 1 b6
+rlabel metal4 776 38 776 38 1 b7
+rlabel metal4 239 576 239 576 1 a0
+rlabel metal4 479 576 479 576 1 a1
+rlabel metal4 718 576 718 576 1 a2
+rlabel metal4 959 576 959 576 1 a3
+rlabel metal4 1199 576 1199 576 1 a4
+rlabel metal4 1439 576 1439 576 1 a5
+rlabel metal4 1679 576 1679 576 1 a6
+rlabel metal4 1919 576 1919 576 1 a7
 << end >>
