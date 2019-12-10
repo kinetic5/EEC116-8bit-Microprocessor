@@ -1,11 +1,6 @@
 magic
 tech scmos
-timestamp 1575959328
-<< error_p >>
-rect 15646 -15993 15647 -15992
-rect 15645 -15994 15646 -15993
-rect 15750 -16006 15751 -16005
-rect 15749 -16007 15750 -16006
+timestamp 1575998097
 << metal1 >>
 rect -1773 1214 15766 1543
 rect -1773 -15993 -1444 1214
@@ -41,10 +36,10 @@ rect 15437 -14766 15766 1214
 rect -1216 -15752 15199 -15423
 rect 15521 -14769 15766 -14766
 rect 15521 -15983 15646 -14769
-rect 15437 -15993 15646 -15983
+rect 15437 -15989 15646 -15983
+rect 15437 -15993 15768 -15989
 rect -1773 -15998 8414 -15993
 rect -1773 -16081 14470 -15998
-rect 15750 -16081 15766 -16006
 rect -1773 -16210 15766 -16081
 rect -1773 -16322 14469 -16210
 rect 7835 -16324 14469 -16322
@@ -84,10 +79,10 @@ rect 15521 -14771 15646 -14769
 rect 15521 -15983 15529 -14771
 rect 15434 -15986 15529 -15983
 rect 15644 -15986 15646 -14771
-rect 15434 -15992 15646 -15986
-rect -1774 -15993 15646 -15992
+rect 15434 -15989 15646 -15986
+rect 15434 -15992 15768 -15989
+rect -1774 -15993 15768 -15992
 rect -1774 -16081 14470 -15993
-rect 15750 -16081 15763 -16006
 rect -1774 -16090 15763 -16081
 rect -1774 -16204 14468 -16090
 rect 15752 -16204 15763 -16090
@@ -96,9 +91,8 @@ rect -1774 -16321 14469 -16210
 rect 15753 -16321 15763 -16210
 << m123contact >>
 rect 15434 -15983 15521 -14766
-rect 15646 -15993 15768 -14799
-rect 14470 -16006 15768 -15993
-rect 14470 -16081 15750 -16006
+rect 15646 -15989 15768 -14799
+rect 14470 -16081 15768 -15993
 rect 14469 -16324 15753 -16210
 << metal3 >>
 rect -1774 1217 15763 1546
@@ -127,10 +121,10 @@ rect 15521 -14771 15646 -14769
 rect 15521 -15983 15529 -14771
 rect 15434 -15986 15529 -15983
 rect 15644 -15986 15646 -14771
-rect 15434 -15992 15646 -15986
-rect -1774 -15993 15646 -15992
+rect 15434 -15989 15646 -15986
+rect 15434 -15992 15768 -15989
+rect -1774 -15993 15768 -15992
 rect -1774 -16081 14470 -15993
-rect 15750 -16081 15763 -16006
 rect -1774 -16090 15763 -16081
 rect -1774 -16204 14468 -16090
 rect 15752 -16204 15763 -16090
@@ -167,267 +161,269 @@ rect -1217 -15744 15213 -15415
 rect 15433 -14771 15762 1220
 rect 15433 -15986 15529 -14771
 rect 15644 -15986 15762 -14771
-rect 15433 -15992 15762 -15986
-rect -1788 -16090 15762 -15992
+rect 15433 -15989 15762 -15986
+rect 15433 -15992 15768 -15989
+rect -1788 -15993 15768 -15992
+rect -1788 -16090 15762 -15993
 rect -1788 -16204 14468 -16090
 rect 15752 -16204 15762 -16090
 rect -1788 -16321 15762 -16204
 use pad  pad_48
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 -29 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_49
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 860 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_50
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 1749 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_51
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 2638 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_52
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 3527 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_53
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 4416 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_54
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 5305 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_55
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 6194 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_56
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 7083 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_57
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 7972 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_58
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 8861 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_59
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 9750 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_60
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 10639 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_61
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 11528 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_62
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 12417 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_63
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 13306 0 1 2000
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_32
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -662
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_16
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -645
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_33
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -1551
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_17
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -1534
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_34
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -2440
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_18
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -2423
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_35
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -3329
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_19
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -3312
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_36
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -4218
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_20
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -4201
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_37
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -5107
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_21
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -5090
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_38
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -5996
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_22
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -5979
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_39
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -6885
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_23
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -6868
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_40
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -7774
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_24
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -7757
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_41
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -8663
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_25
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -8646
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_42
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -9552
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_26
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -9535
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_43
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -10441
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_27
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -10424
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_44
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -11330
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_28
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -11313
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_45
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -12219
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_29
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -12202
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_46
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -13108
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_30
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -13091
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_47
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 -2998 -1 0 -13997
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_31
-timestamp 1575959328
+timestamp 1575998002
 transform 0 1 16001 -1 0 -13980
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_0
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 0 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_1
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 889 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_2
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 1778 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_3
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 2667 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_4
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 3556 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_5
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 4445 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_6
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 5334 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_7
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 6223 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_8
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 7112 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_9
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 8001 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_10
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 8890 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_11
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 9779 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_12
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 10668 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_13
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 11557 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_14
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 12446 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 use pad  pad_15
-timestamp 1575959328
+timestamp 1575998002
 transform 1 0 13335 0 1 -17223
-box -3 -4 671 668
+box -3 -4 672 668
 << labels >>
 rlabel metal4 6989 -16182 6989 -16182 1 VddIo
 rlabel metal4 7131 -15637 7131 -15637 1 GndIo
