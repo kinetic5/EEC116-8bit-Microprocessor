@@ -1,6 +1,11 @@
 magic
 tech scmos
-timestamp 1576013433
+timestamp 1576135017
+<< nwell >>
+rect -43 33 -3 70
+<< pwell >>
+rect -37 31 -3 33
+rect -43 -2 -3 31
 << ntransistor >>
 rect -19 21 -17 27
 rect -9 23 -7 27
@@ -40,6 +45,10 @@ rect -26 60 -20 64
 rect -36 50 -30 56
 rect -26 40 -20 45
 rect -15 39 -10 45
+<< psubstratepcontact >>
+rect -40 1 -30 8
+<< nsubstratencontact >>
+rect -40 60 -30 67
 << polysilicon >>
 rect -39 11 -37 57
 rect -29 56 -27 59
@@ -61,8 +70,10 @@ rect -9 11 -7 12
 << polycontact >>
 rect -31 28 -27 32
 << metal1 >>
-rect -43 64 -3 68
-rect -43 60 -26 64
+rect -43 67 -3 68
+rect -43 60 -40 67
+rect -30 64 -3 67
+rect -30 60 -26 64
 rect -20 60 -3 64
 rect -41 50 -36 56
 rect -30 50 -29 56
@@ -75,9 +86,11 @@ rect -15 30 8 35
 rect -15 27 -10 30
 rect -41 19 -35 21
 rect -41 15 -36 19
-rect -43 4 -26 8
+rect -43 1 -40 8
+rect -30 4 -26 8
 rect -21 4 -1 8
-rect -43 0 -1 4
+rect -30 1 -1 4
+rect -43 0 -1 1
 << pm12contact >>
 rect -20 48 -15 53
 rect -11 49 -6 54
@@ -107,9 +120,9 @@ rect 92 40 100 48
 rect -41 17 -36 21
 rect -41 12 -6 17
 use dff  dff_0
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 -3 0 1 61
-box 0 -61 150 7
+box 0 -63 150 9
 << labels >>
 rlabel m3contact -3 33 -3 33 1 in_0
 rlabel m123contact -21 32 -21 32 1 in_1

@@ -1,0 +1,217 @@
+| units: 9 tech: scmos format: MIT
+p in Vdd input_driver_0/a_16_27# 2 12 -230 103
+p in input_driver_0/a_16_27# Vdd 2 12 -220 103
+p input_driver_0/a_16_27# Vdd input_driver_0/a_36_24# 2 14 -210 101
+p input_driver_0/a_16_27# input_driver_0/a_36_24# Vdd 2 14 -200 101
+p input_driver_0/a_16_27# Vdd input_driver_0/a_36_24# 2 14 -190 101
+p input_driver_0/a_16_27# input_driver_0/a_36_24# Vdd 2 14 -180 101
+p input_driver_0/a_36_24# Vdd input_driver_0/a_76_20# 2 23 -170 96
+p input_driver_0/a_36_24# input_driver_0/a_76_20# Vdd 2 23 -160 96
+p input_driver_0/a_36_24# Vdd input_driver_0/a_76_20# 2 23 -150 96
+p input_driver_0/a_36_24# input_driver_0/a_76_20# Vdd 2 23 -140 96
+n in Gnd input_driver_0/a_16_27# 2 6 -230 62
+n in input_driver_0/a_16_27# Gnd 2 6 -220 62
+n input_driver_0/a_16_27# Gnd input_driver_0/a_36_24# 2 9 -210 59
+n input_driver_0/a_16_27# input_driver_0/a_36_24# Gnd 2 9 -200 59
+n input_driver_0/a_16_27# Gnd input_driver_0/a_36_24# 2 9 -190 59
+n input_driver_0/a_16_27# input_driver_0/a_36_24# Gnd 2 9 -180 59
+n input_driver_0/a_36_24# Gnd input_driver_0/a_76_20# 2 15 -170 55
+n input_driver_0/a_36_24# input_driver_0/a_76_20# Gnd 2 15 -160 55
+n input_driver_0/a_36_24# Gnd input_driver_0/a_76_20# 2 15 -150 55
+n input_driver_0/a_36_24# input_driver_0/a_76_20# Gnd 2 15 -140 55
+p input_driver_0/a_76_20# Vdd input_driver_0/out 2 25 -120 93
+p input_driver_0/a_76_20# input_driver_0/out Vdd 2 25 -110 93
+p input_driver_0/a_76_20# Vdd input_driver_0/out 2 25 -100 93
+p input_driver_0/a_76_20# input_driver_0/out Vdd 2 25 -90 93
+p input_driver_0/a_76_20# Vdd input_driver_0/out 2 25 -80 93
+p input_driver_0/a_76_20# input_driver_0/out Vdd 2 25 -70 93
+p input_driver_0/a_76_20# Vdd input_driver_0/out 2 25 -60 93
+p input_driver_0/a_76_20# input_driver_0/out Vdd 2 25 -50 93
+p input_driver_0/a_76_20# Vdd input_driver_0/out 2 25 -40 93
+p input_driver_0/a_76_20# input_driver_0/out Vdd 2 25 -30 93
+n input_driver_0/a_76_20# Gnd input_driver_0/out 2 17 -120 52
+n input_driver_0/a_76_20# input_driver_0/out Gnd 2 17 -110 52
+n input_driver_0/a_76_20# Gnd input_driver_0/out 2 17 -100 52
+n input_driver_0/a_76_20# input_driver_0/out Gnd 2 17 -90 52
+n input_driver_0/a_76_20# Gnd input_driver_0/out 2 17 -80 52
+n input_driver_0/a_76_20# input_driver_0/out Gnd 2 17 -70 52
+n input_driver_0/a_76_20# Gnd input_driver_0/out 2 17 -60 52
+n input_driver_0/a_76_20# input_driver_0/out Gnd 2 17 -50 52
+n input_driver_0/a_76_20# Gnd input_driver_0/out 2 17 -40 52
+n input_driver_0/a_76_20# input_driver_0/out Gnd 2 17 -30 52
+p input_driver_0/out Vdd a_49_n80# 2 60 47 192
+p input_driver_0/out a_49_n80# Vdd 2 60 57 192
+p input_driver_0/out Vdd a_49_n80# 2 60 67 192
+p input_driver_0/out a_49_n80# Vdd 2 60 77 192
+p input_driver_0/out Vdd a_49_n80# 2 60 87 192
+p input_driver_0/out a_49_n80# Vdd 2 60 97 192
+p input_driver_0/out Vdd a_49_n80# 2 60 107 192
+p input_driver_0/out a_49_n80# Vdd 2 60 117 192
+p input_driver_0/out Vdd a_49_n80# 2 60 127 192
+p input_driver_0/out a_49_n80# Vdd 2 60 137 192
+p input_driver_0/out Vdd a_49_n80# 2 60 147 192
+p input_driver_0/out a_49_n80# Vdd 2 60 157 192
+p input_driver_0/out Vdd a_49_n80# 2 60 167 192
+p input_driver_0/out a_49_n80# Vdd 2 60 177 192
+p input_driver_0/out Vdd a_49_n80# 2 60 187 192
+p input_driver_0/out a_49_n80# Vdd 2 60 197 192
+p a_49_n80# Vdd out 2 69 207 185
+p a_49_n80# out Vdd 2 69 217 185
+p a_49_n80# Vdd out 2 69 227 185
+p a_49_n80# out Vdd 2 69 237 185
+p a_49_n80# Vdd out 2 69 247 185
+p a_49_n80# out Vdd 2 69 257 185
+p a_49_n80# Vdd out 2 69 267 185
+p a_49_n80# out Vdd 2 69 277 185
+p a_49_n80# Vdd out 2 69 287 185
+p a_49_n80# out Vdd 2 69 297 185
+p a_49_n80# Vdd out 2 69 307 185
+p a_49_n80# out Vdd 2 69 317 185
+p a_49_n80# Vdd out 2 69 327 185
+p a_49_n80# out Vdd 2 69 337 185
+p a_49_n80# Vdd out 2 69 347 185
+p a_49_n80# out Vdd 2 69 357 185
+p a_49_n80# Vdd out 2 69 367 185
+p a_49_n80# out Vdd 2 69 377 185
+p a_49_n80# Vdd out 2 69 387 185
+p a_49_n80# out Vdd 2 69 397 185
+p a_49_n80# Vdd out 2 69 407 185
+p a_49_n80# out Vdd 2 69 417 185
+p a_49_n80# Vdd out 2 69 427 185
+p a_49_n80# out Vdd 2 69 437 185
+p a_49_n80# Vdd out 2 69 447 185
+p a_49_n80# out Vdd 2 69 457 185
+p a_49_n80# Vdd out 2 69 467 185
+p a_49_n80# out Vdd 2 69 477 185
+p a_49_n80# Vdd out 2 69 487 185
+p a_49_n80# out Vdd 2 69 497 185
+p a_49_n80# Vdd out 2 69 507 185
+p a_49_n80# out Vdd 2 69 517 185
+p a_49_n80# Vdd out 2 69 527 185
+p a_49_n80# out Vdd 2 69 537 185
+p a_49_n80# Vdd out 2 69 547 185
+p a_49_n80# out Vdd 2 69 557 185
+p a_49_n80# Vdd out 2 69 567 185
+p a_49_n80# out Vdd 2 69 577 185
+p a_49_n80# Vdd out 2 69 587 185
+p a_49_n80# out Vdd 2 69 597 185
+p a_49_n80# Vdd out 2 69 607 185
+p a_49_n80# out Vdd 2 69 617 185
+p a_49_n80# Vdd out 2 69 627 185
+p a_49_n80# out Vdd 2 69 637 185
+p a_49_n80# Vdd out 2 69 647 185
+p a_49_n80# out Vdd 2 69 657 185
+p a_49_n80# Vdd out 2 69 667 185
+p a_49_n80# out Vdd 2 69 677 185
+p a_49_n80# Vdd out 2 69 687 185
+p a_49_n80# out Vdd 2 69 697 185
+p a_49_n80# Vdd out 2 69 707 185
+p a_49_n80# out Vdd 2 69 717 185
+p a_49_n80# Vdd out 2 69 727 185
+p a_49_n80# out Vdd 2 69 737 185
+p a_49_n80# Vdd out 2 69 747 185
+p a_49_n80# out Vdd 2 69 757 185
+p a_49_n80# Vdd out 2 69 767 185
+p a_49_n80# out Vdd 2 69 777 185
+n input_driver_0/out Gnd a_49_n80# 2 40 47 -80
+n input_driver_0/out a_49_n80# Gnd 2 40 57 -80
+n input_driver_0/out Gnd a_49_n80# 2 40 67 -80
+n input_driver_0/out a_49_n80# Gnd 2 40 77 -80
+n input_driver_0/out Gnd a_49_n80# 2 40 87 -80
+n input_driver_0/out a_49_n80# Gnd 2 40 97 -80
+n input_driver_0/out Gnd a_49_n80# 2 40 107 -80
+n input_driver_0/out a_49_n80# Gnd 2 40 117 -80
+n input_driver_0/out Gnd a_49_n80# 2 40 127 -80
+n input_driver_0/out a_49_n80# Gnd 2 40 137 -80
+n input_driver_0/out Gnd a_49_n80# 2 40 147 -80
+n input_driver_0/out a_49_n80# Gnd 2 40 157 -80
+n input_driver_0/out Gnd a_49_n80# 2 40 167 -80
+n input_driver_0/out a_49_n80# Gnd 2 40 177 -80
+n input_driver_0/out Gnd a_49_n80# 2 40 187 -80
+n input_driver_0/out a_49_n80# Gnd 2 40 197 -80
+n a_49_n80# Gnd out 2 46 207 -84
+n a_49_n80# out Gnd 2 46 217 -84
+n a_49_n80# Gnd out 2 46 227 -84
+n a_49_n80# out Gnd 2 46 237 -84
+n a_49_n80# Gnd out 2 46 247 -84
+n a_49_n80# out Gnd 2 46 257 -84
+n a_49_n80# Gnd out 2 46 267 -84
+n a_49_n80# out Gnd 2 46 277 -84
+n a_49_n80# Gnd out 2 46 287 -84
+n a_49_n80# out Gnd 2 46 297 -84
+n a_49_n80# Gnd out 2 46 307 -84
+n a_49_n80# out Gnd 2 46 317 -84
+n a_49_n80# Gnd out 2 46 327 -84
+n a_49_n80# out Gnd 2 46 337 -84
+n a_49_n80# Gnd out 2 46 347 -84
+n a_49_n80# out Gnd 2 46 357 -84
+n a_49_n80# Gnd out 2 46 367 -84
+n a_49_n80# out Gnd 2 46 377 -84
+n a_49_n80# Gnd out 2 46 387 -84
+n a_49_n80# out Gnd 2 46 397 -84
+n a_49_n80# Gnd out 2 46 407 -84
+n a_49_n80# out Gnd 2 46 417 -84
+n a_49_n80# Gnd out 2 46 427 -84
+n a_49_n80# out Gnd 2 46 437 -84
+n a_49_n80# Gnd out 2 46 447 -84
+n a_49_n80# out Gnd 2 46 457 -84
+n a_49_n80# Gnd out 2 46 467 -84
+n a_49_n80# out Gnd 2 46 477 -84
+n a_49_n80# Gnd out 2 46 487 -84
+n a_49_n80# out Gnd 2 46 497 -84
+n a_49_n80# Gnd out 2 46 507 -84
+n a_49_n80# out Gnd 2 46 517 -84
+n a_49_n80# Gnd out 2 46 527 -84
+n a_49_n80# out Gnd 2 46 537 -84
+n a_49_n80# Gnd out 2 46 547 -84
+n a_49_n80# out Gnd 2 46 557 -84
+n a_49_n80# Gnd out 2 46 567 -84
+n a_49_n80# out Gnd 2 46 577 -84
+n a_49_n80# Gnd out 2 46 587 -84
+n a_49_n80# out Gnd 2 46 597 -84
+n a_49_n80# Gnd out 2 46 607 -84
+n a_49_n80# out Gnd 2 46 617 -84
+n a_49_n80# Gnd out 2 46 627 -84
+n a_49_n80# out Gnd 2 46 637 -84
+n a_49_n80# Gnd out 2 46 647 -84
+n a_49_n80# out Gnd 2 46 657 -84
+n a_49_n80# Gnd out 2 46 667 -84
+n a_49_n80# out Gnd 2 46 677 -84
+n a_49_n80# Gnd out 2 46 687 -84
+n a_49_n80# out Gnd 2 46 697 -84
+n a_49_n80# Gnd out 2 46 707 -84
+n a_49_n80# out Gnd 2 46 717 -84
+n a_49_n80# Gnd out 2 46 727 -84
+n a_49_n80# out Gnd 2 46 737 -84
+n a_49_n80# Gnd out 2 46 747 -84
+n a_49_n80# out Gnd 2 46 757 -84
+n a_49_n80# Gnd out 2 46 767 -84
+n a_49_n80# out Gnd 2 46 777 -84
+C Gnd input_driver_0/out 9.44
+C a_49_n80# out 32.91
+C Vdd a_49_n80# 43.26
+C Vdd out 64.30
+C Gnd a_49_n80# 34.29
+C Vdd input_driver_0/a_76_20# 2.97
+C Gnd out 45.03
+C input_driver_0/out a_49_n80# 10.12
+C input_driver_0/a_76_20# Gnd 2.49
+C Vdd input_driver_0/out 11.86
+R a_797_n87# 1332
+C out GND 2.07
+R out 3902
+C a_49_n80# GND 65.88
+R a_49_n80# 54638
+R input_driver_0/a_224_14# 277
+C input_driver_0/out GND 19.64
+R input_driver_0/out 14882
+R input_driver_0/a_114_14# 277
+R Gnd 2702
+C input_driver_0/a_76_20# GND 3.18
+R input_driver_0/a_76_20# 2346
+C Vdd GND 5.54
+R Vdd 11534
+R input_driver_0/a_36_24# 1051
+R input_driver_0/a_16_27# 969
+R in 463
+R input_driver_0/a_4_14# 277

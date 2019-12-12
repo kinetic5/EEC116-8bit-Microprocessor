@@ -1,6 +1,10 @@
 magic
 tech scmos
-timestamp 1576013433
+timestamp 1576128602
+<< nwell >>
+rect 45 -26 125 11
+<< pwell >>
+rect 45 -61 125 -26
 << ntransistor >>
 rect 69 -38 71 -32
 rect 79 -36 81 -32
@@ -56,6 +60,13 @@ rect 62 -19 68 -14
 rect 73 -20 78 -14
 rect 92 -20 98 -8
 rect 112 -20 118 -8
+<< psubstratepcontact >>
+rect 49 -58 58 -51
+rect 77 -58 86 -51
+<< nsubstratencontact >>
+rect 49 1 58 7
+rect 74 1 85 7
+rect 106 1 117 7
 << polysilicon >>
 rect 49 -49 51 -1
 rect 59 -3 61 0
@@ -89,9 +100,13 @@ rect 57 -31 61 -27
 rect 97 -29 103 -23
 rect 107 -29 113 -23
 << metal1 >>
-rect 45 5 125 9
-rect 45 1 62 5
-rect 68 1 125 5
+rect 45 7 125 9
+rect 45 1 49 7
+rect 58 5 74 7
+rect 58 1 62 5
+rect 68 1 74 5
+rect 85 1 106 7
+rect 117 1 125 7
 rect 47 -9 52 -3
 rect 58 -9 59 -3
 rect 47 -29 53 -9
@@ -108,9 +123,12 @@ rect 73 -32 78 -29
 rect 47 -44 52 -40
 rect 92 -51 98 -40
 rect 112 -51 118 -40
-rect 45 -55 62 -51
-rect 67 -55 125 -51
-rect 45 -59 125 -55
+rect 45 -58 49 -51
+rect 58 -55 62 -51
+rect 67 -55 77 -51
+rect 58 -58 77 -55
+rect 86 -58 125 -51
+rect 45 -59 125 -58
 << pm12contact >>
 rect 68 -11 73 -6
 rect 77 -10 82 -5
@@ -144,9 +162,9 @@ rect 56 -22 61 -10
 rect 47 -42 52 -34
 rect 47 -47 82 -42
 << labels >>
-rlabel metal1 109 5 109 5 7 Vdd
+rlabel nsubstratencontact 109 5 109 5 7 Vdd
 rlabel m123contact 58 -25 58 -25 1 enable
-rlabel metal1 73 -55 73 -55 1 Gnd
-rlabel metal1 75 -27 75 -27 1 mux_out
 rlabel metal2 85 -25 85 -25 1 D
+rlabel metal1 75 -27 75 -27 1 mux_out
+rlabel metal1 73 -55 73 -55 1 Gnd
 << end >>

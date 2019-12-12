@@ -1,6 +1,13 @@
 magic
 tech scmos
-timestamp 1576013400
+timestamp 1576135017
+<< nwell >>
+rect 85 37 327 72
+rect 85 33 178 37
+rect 206 33 327 37
+<< pwell >>
+rect 178 33 206 37
+rect 85 0 327 33
 << ntransistor >>
 rect 101 23 103 27
 rect 111 23 113 27
@@ -91,6 +98,16 @@ rect 124 43 130 49
 rect 164 43 170 49
 rect 174 43 180 49
 rect 194 51 200 57
+<< psubstratepcontact >>
+rect 92 3 107 10
+rect 153 3 168 10
+rect 216 3 231 10
+rect 280 3 295 10
+<< nsubstratencontact >>
+rect 92 62 107 69
+rect 153 62 168 69
+rect 216 62 231 69
+rect 280 62 295 69
 << polysilicon >>
 rect 91 12 93 60
 rect 101 55 103 60
@@ -147,7 +164,10 @@ rect 99 13 103 18
 rect 139 13 145 18
 rect 199 13 204 17
 << metal1 >>
-rect 87 62 219 70
+rect 87 69 219 70
+rect 87 62 92 69
+rect 107 62 153 69
+rect 168 62 216 69
 rect 104 55 110 62
 rect 88 49 94 55
 rect 124 49 130 62
@@ -180,9 +200,12 @@ rect 174 10 180 23
 rect 184 21 204 24
 rect 184 20 191 21
 rect 202 20 210 21
-rect 87 6 194 10
-rect 198 6 222 10
-rect 87 2 222 6
+rect 87 3 92 10
+rect 107 3 153 10
+rect 168 6 194 10
+rect 198 6 216 10
+rect 168 3 216 6
+rect 87 2 222 3
 << m2contact >>
 rect 164 53 170 59
 rect 93 13 98 18
@@ -266,9 +289,9 @@ rect 300 3 302 5
 rect 111 51 200 58
 rect 215 51 327 58
 use mux_4_to_1  mux_4_to_1_0
-timestamp 1576013400
+timestamp 1576135017
 transform 1 0 221 0 1 64
-box -14 -62 106 6
+box -14 -62 646 489
 << labels >>
 rlabel m2contact 167 56 167 56 1 xor_b
 rlabel pdm12contact 157 48 157 48 1 xor_a

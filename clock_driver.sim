@@ -1,0 +1,107 @@
+| units: 9 tech: scmos format: MIT
+p in Vdd a_n45_4# 2 10 -47 37
+n in Gnd a_n45_4# 2 5 -47 4
+p a_n45_4# Vdd a_n25_4# 2 16 -27 31
+p a_n45_4# a_n25_4# Vdd 2 16 -17 31
+p a_n25_4# Vdd a_n5_4# 2 15 -7 32
+p a_n25_4# a_n5_4# Vdd 2 15 3 32
+p a_n25_4# Vdd a_n5_4# 2 15 13 32
+p a_n25_4# a_n5_4# Vdd 2 15 23 32
+p a_n25_4# Vdd a_n5_4# 2 15 33 32
+p a_n25_4# a_n5_4# Vdd 2 15 43 32
+p a_n25_4# Vdd a_n5_4# 2 15 53 32
+p a_n25_4# a_n5_4# Vdd 2 15 63 32
+p a_n25_4# Vdd a_n5_4# 2 15 73 32
+p a_n25_4# a_n5_4# Vdd 2 15 83 32
+p a_n5_4# Vdd out 2 16 93 31
+p a_n5_4# out Vdd 2 16 103 31
+p a_n5_4# Vdd out 2 16 113 31
+p a_n5_4# out Vdd 2 16 123 31
+p a_n5_4# Vdd out 2 16 133 31
+p a_n5_4# out Vdd 2 16 143 31
+p a_n5_4# Vdd out 2 16 153 31
+p a_n5_4# out Vdd 2 16 163 31
+p a_n5_4# Vdd out 2 16 173 31
+p a_n5_4# out Vdd 2 16 183 31
+p a_n5_4# Vdd out 2 16 193 31
+p a_n5_4# out Vdd 2 16 203 31
+p a_n5_4# Vdd out 2 16 213 31
+p a_n5_4# out Vdd 2 16 223 31
+p a_n5_4# Vdd out 2 16 233 31
+p a_n5_4# out Vdd 2 16 243 31
+p a_n5_4# Vdd out 2 16 253 31
+p a_n5_4# out Vdd 2 16 263 31
+p a_n5_4# Vdd out 2 16 273 31
+p a_n5_4# out Vdd 2 16 283 31
+p a_n5_4# Vdd out 2 16 293 31
+p a_n5_4# out Vdd 2 16 303 31
+p a_n5_4# Vdd out 2 16 313 31
+p a_n5_4# out Vdd 2 16 323 31
+p a_n5_4# Vdd out 2 16 333 31
+p a_n5_4# out Vdd 2 16 343 31
+p a_n5_4# Vdd out 2 16 353 31
+p a_n5_4# out Vdd 2 16 363 31
+p a_n5_4# Vdd out 2 16 373 31
+p a_n5_4# out Vdd 2 16 383 31
+n a_n45_4# Gnd a_n25_4# 2 9 -27 4
+n a_n45_4# a_n25_4# Gnd 2 9 -17 4
+n a_n25_4# Gnd a_n5_4# 2 7 -7 4
+n a_n25_4# a_n5_4# Gnd 2 7 3 4
+n a_n25_4# Gnd a_n5_4# 2 7 13 4
+n a_n25_4# a_n5_4# Gnd 2 7 23 4
+n a_n25_4# Gnd a_n5_4# 2 7 33 4
+n a_n25_4# a_n5_4# Gnd 2 7 43 4
+n a_n25_4# Gnd a_n5_4# 2 7 53 4
+n a_n25_4# a_n5_4# Gnd 2 7 63 4
+n a_n25_4# Gnd a_n5_4# 2 7 73 4
+n a_n25_4# a_n5_4# Gnd 2 7 83 4
+n a_n5_4# Gnd out 2 8 93 4
+n a_n5_4# out Gnd 2 8 103 4
+n a_n5_4# Gnd out 2 8 113 4
+n a_n5_4# out Gnd 2 8 123 4
+n a_n5_4# Gnd out 2 8 133 4
+n a_n5_4# out Gnd 2 8 143 4
+n a_n5_4# Gnd out 2 8 153 4
+n a_n5_4# out Gnd 2 8 163 4
+n a_n5_4# Gnd out 2 8 173 4
+n a_n5_4# out Gnd 2 8 183 4
+n a_n5_4# Gnd out 2 8 193 4
+n a_n5_4# out Gnd 2 8 203 4
+n a_n5_4# Gnd out 2 8 213 4
+n a_n5_4# out Gnd 2 8 223 4
+n a_n5_4# Gnd out 2 8 233 4
+n a_n5_4# out Gnd 2 8 243 4
+n a_n5_4# Gnd out 2 8 253 4
+n a_n5_4# out Gnd 2 8 263 4
+n a_n5_4# Gnd out 2 8 273 4
+n a_n5_4# out Gnd 2 8 283 4
+n a_n5_4# Gnd out 2 8 293 4
+n a_n5_4# out Gnd 2 8 303 4
+n a_n5_4# Gnd out 2 8 313 4
+n a_n5_4# out Gnd 2 8 323 4
+n a_n5_4# Gnd out 2 8 333 4
+n a_n5_4# out Gnd 2 8 343 4
+n a_n5_4# Gnd out 2 8 353 4
+n a_n5_4# out Gnd 2 8 363 4
+n a_n5_4# Gnd out 2 8 373 4
+n a_n5_4# out Gnd 2 8 383 4
+C out a_n5_4# 5.92
+C out Gnd 4.83
+C a_n5_4# Gnd 2.74
+C out Vdd 7.50
+C a_n5_4# Vdd 3.35
+R a_403_1# 189
+R a_393_1# 189
+R out 936
+C a_n5_4# GND 8.43
+R a_n5_4# 4690
+C a_n25_4# GND 2.87
+R a_n25_4# 1490
+R a_n37_1# 189
+C Gnd GND 2.57
+R Gnd 624
+R a_n45_4# 316
+C Vdd GND 2.53
+R Vdd 768
+R in 124
+R a_n57_1# 189

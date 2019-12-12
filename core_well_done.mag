@@ -1,6 +1,9 @@
 magic
 tech scmos
-timestamp 1576120818
+timestamp 1576135017
+<< pwell >>
+rect 2267 360 2280 393
+rect 1253 14 1266 37
 << metal1 >>
 rect -57 638 -26 646
 rect -57 574 -49 638
@@ -1714,259 +1717,259 @@ rect 1167 5 1180 13
 rect 1341 12 1348 143
 rect 1343 4 1348 12
 use driver  driver_19
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 -23 0 1 637
-box -8 -59 92 9
-use logic  logic_0
-timestamp 1576013400
-transform 1 0 -407 0 1 504
-box 85 2 327 70
+box -8 -61 92 11
 use two_1_mux  two_1_mux_0
-timestamp 1576013433
+timestamp 1576128602
 transform 1 0 -125 0 1 565
-box 45 -59 125 9
+box 45 -61 125 11
+use logic  logic_0
+timestamp 1576135017
+transform 1 0 -407 0 1 504
+box 85 0 867 553
 use fadder  fadder_0
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 -156 0 1 430
-box -24 4 156 72
+box -24 2 156 74
 use logic  logic_1
-timestamp 1576013400
+timestamp 1576135017
 transform 1 0 -87 0 1 432
-box 85 2 327 70
+box 85 0 867 553
 use inputff  inputff_0
-timestamp 1576019529
+timestamp 1576135017
 transform 1 0 -174 0 1 482
-box -76 -120 134 -52
+box -83 -122 134 -50
 use driver  driver_0
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 -32 0 1 421
-box -8 -59 92 9
+box -8 -61 92 11
 use fadder  fadder_1
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 84 0 1 358
-box -24 4 156 72
+box -24 2 156 74
 use logic  logic_2
-timestamp 1576013400
+timestamp 1576135017
 transform 1 0 153 0 1 360
-box 85 2 327 70
+box 85 0 867 553
 use inputff  inputff_1
-timestamp 1576019529
+timestamp 1576135017
 transform 1 0 -244 0 1 410
-box -76 -120 134 -52
+box -83 -122 134 -50
 use driver  driver_1
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 -102 0 1 349
-box -8 -59 92 9
+box -8 -61 92 11
 use inputff  inputff_2
-timestamp 1576019529
+timestamp 1576135017
 transform 1 0 66 0 1 410
-box -76 -120 134 -52
+box -83 -122 134 -50
 use driver  driver_2
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 208 0 1 349
-box -8 -59 92 9
+box -8 -61 92 11
 use fadder  fadder_2
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 324 0 1 286
-box -24 4 156 72
+box -24 2 156 74
 use logic  logic_3
-timestamp 1576013400
+timestamp 1576135017
 transform 1 0 393 0 1 288
-box 85 2 327 70
+box 85 0 867 553
 use dff  dff_0
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 -320 0 1 279
-box 0 -61 150 7
+box 0 -63 150 9
 use driver  driver_8
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 -172 0 1 277
-box -8 -59 92 9
+box -8 -61 92 11
 use inputff  inputff_3
-timestamp 1576019529
+timestamp 1576135017
 transform 1 0 -4 0 1 338
-box -76 -120 134 -52
+box -83 -122 134 -50
 use driver  driver_3
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 138 0 1 277
-box -8 -59 92 9
+box -8 -61 92 11
 use inputff  inputff_4
-timestamp 1576019529
+timestamp 1576135017
 transform 1 0 306 0 1 338
-box -76 -120 134 -52
+box -83 -122 134 -50
 use driver  driver_4
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 448 0 1 277
-box -8 -59 92 9
+box -8 -61 92 11
 use fadder  fadder_3
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 564 0 1 214
-box -24 4 156 72
+box -24 2 156 74
 use logic  logic_4
-timestamp 1576013400
+timestamp 1576135017
 transform 1 0 633 0 1 216
-box 85 2 327 70
+box 85 0 867 553
 use dff  dff_3
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 -250 0 1 207
-box 0 -61 150 7
+box 0 -63 150 9
 use driver  driver_11
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 -102 0 1 205
-box -8 -59 92 9
+box -8 -61 92 11
 use dff  dff_2
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 -10 0 1 207
-box 0 -61 150 7
+box 0 -63 150 9
 use driver  driver_10
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 138 0 1 205
-box -8 -59 92 9
+box -8 -61 92 11
 use dff  dff_1
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 230 0 1 207
-box 0 -61 150 7
+box 0 -63 150 9
 use driver  driver_9
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 378 0 1 205
-box -8 -59 92 9
+box -8 -61 92 11
 use inputff  inputff_5
-timestamp 1576019529
+timestamp 1576135017
 transform 1 0 546 0 1 266
-box -76 -120 134 -52
+box -83 -122 134 -50
 use driver  driver_5
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 688 0 1 205
-box -8 -59 92 9
+box -8 -61 92 11
 use fadder  fadder_4
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 804 0 1 142
-box -24 4 156 72
+box -24 2 156 74
 use logic  logic_5
-timestamp 1576013400
+timestamp 1576135017
 transform 1 0 873 0 1 144
-box 85 2 327 70
+box 85 0 867 553
 use inv_9_6  inv_9_6_0
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 -320 0 1 134
-box 0 -60 30 8
+box 0 -62 30 10
 use inv_9_6  inv_9_6_3
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 -290 0 1 134
-box 0 -60 30 8
+box 0 -62 30 10
 use clock_driver  clock_driver_0
-timestamp 1576011127
+timestamp 1576129325
 transform 1 0 278 0 1 83
-box -61 -9 409 59
+box -61 -11 409 61
 use inputff  inputff_6
-timestamp 1576019529
+timestamp 1576135017
 transform 1 0 786 0 1 194
-box -76 -120 134 -52
+box -83 -122 134 -50
 use driver  driver_6
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 928 0 1 133
-box -8 -59 92 9
+box -8 -61 92 11
 use fadder  fadder_5
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 1044 0 1 70
-box -24 4 156 72
+box -24 2 156 74
 use logic  logic_6
-timestamp 1576013400
+timestamp 1576135017
 transform 1 0 1113 0 1 72
-box 85 2 327 70
+box 85 0 867 553
 use dff  dff_6
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 -210 0 1 63
-box 0 -61 150 7
+box 0 -63 150 9
 use inv_9_6  inv_9_6_2
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 -70 0 1 62
-box 0 -60 30 8
+box 0 -62 30 10
 use driver  driver_15
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 -32 0 1 61
-box -8 -59 92 9
+box -8 -61 92 11
 use driver  driver_16
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 68 0 1 61
-box -8 -59 92 9
+box -8 -61 92 11
 use dff  dff_5
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 160 0 1 63
-box 0 -61 150 7
+box 0 -63 150 9
 use inv_9_6  inv_9_6_1
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 300 0 1 62
-box 0 -60 30 8
+box 0 -62 30 10
 use driver  driver_13
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 338 0 1 61
-box -8 -59 92 9
+box -8 -61 92 11
 use driver  driver_14
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 438 0 1 61
-box -8 -59 92 9
+box -8 -61 92 11
 use dff  dff_4
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 530 0 1 63
-box 0 -61 150 7
+box 0 -63 150 9
 use driver  driver_12
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 678 0 1 61
-box -8 -59 92 9
+box -8 -61 92 11
 use inputff  inputff_7
-timestamp 1576019529
+timestamp 1576135017
 transform 1 0 846 0 1 122
-box -76 -120 134 -52
+box -83 -122 134 -50
 use driver  driver_7
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 988 0 1 61
-box -8 -59 92 9
+box -8 -61 92 11
 use fadder  fadder_6
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 1104 0 1 -2
-box -24 4 156 72
+box -24 2 156 74
 use fadder  fadder_7
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 1284 0 1 -2
-box -24 4 156 72
-use logic  logic_7
-timestamp 1576013400
-transform 1 0 1353 0 1 0
-box 85 2 327 70
+box -24 2 156 74
+use mult  mult_0
+timestamp 1576135017
+transform 1 0 241 0 1 432
+box -241 -432 1696 144
 use enff  enff_0
 array 0 0 191 0 7 72
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 1973 0 1 2
-box -43 0 147 68
+box -43 -2 147 70
 use driver  driver_17
 array 0 0 100 0 7 72
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 2128 0 1 61
-box -8 -59 92 9
-use mult  mult_0
-timestamp 1576022990
-transform 1 0 241 0 1 432
-box -241 -432 1689 142
-use inv_big  inv_big_1
-array 0 0 57 0 7 72
-timestamp 1576024913
-transform 1 0 2084 0 1 4
-box 136 -4 193 68
+box -8 -61 92 11
+use logic  logic_7
+timestamp 1576135017
+transform 1 0 1353 0 1 0
+box 85 0 867 553
 use enff  enff_1
 array 0 0 190 0 7 72
-timestamp 1576013433
+timestamp 1576135017
 transform 1 0 2320 0 1 2
-box -43 0 147 68
+box -43 -2 147 70
+use inv_big  inv_big_1
+array 0 0 57 0 7 72
+timestamp 1576132548
+transform 1 0 2084 0 1 4
+box 136 -4 435 161
 use driver  driver_18
 array 0 0 100 0 7 72
-timestamp 1576117405
+timestamp 1576135017
 transform 1 0 2475 0 1 61
-box -8 -59 92 9
+box -8 -61 92 11
 use inv_big  inv_big_0
 array 0 0 57 0 7 72
-timestamp 1576024913
+timestamp 1576132548
 transform 1 0 2431 0 1 4
-box 136 -4 193 68
+box 136 -4 435 161
 << labels >>
 rlabel m4contact 430 469 430 469 1 4mux_to_2mux_1
 rlabel m4contact -8 535 -8 535 1 nz0

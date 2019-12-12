@@ -1,6 +1,12 @@
 magic
 tech scmos
-timestamp 1576021268
+timestamp 1576133447
+<< nwell >>
+rect 6 42 257 79
+rect 6 40 175 42
+<< pwell >>
+rect 175 40 245 42
+rect 6 7 246 40
 << ntransistor >>
 rect 20 30 22 34
 rect 30 30 32 34
@@ -144,6 +150,18 @@ rect 173 59 179 65
 rect 183 49 189 54
 rect 194 48 199 54
 rect 223 48 229 60
+<< psubstratepcontact >>
+rect 28 10 42 17
+rect 91 10 105 17
+rect 154 10 168 17
+rect 194 10 208 17
+rect 223 10 237 17
+<< nsubstratencontact >>
+rect 28 69 42 76
+rect 91 69 105 76
+rect 154 69 168 76
+rect 194 69 208 76
+rect 223 69 237 76
 << polysilicon >>
 rect 10 19 12 67
 rect 20 52 22 67
@@ -238,9 +256,15 @@ rect 30 28 32 30
 rect 70 25 72 28
 rect 80 25 82 28
 << metal1 >>
-rect 6 73 246 77
-rect 6 69 183 73
-rect 189 69 246 73
+rect 6 76 246 77
+rect 6 69 28 76
+rect 42 69 91 76
+rect 105 69 154 76
+rect 168 73 194 76
+rect 168 69 183 73
+rect 189 69 194 73
+rect 208 69 223 76
+rect 237 69 246 76
 rect 13 52 19 69
 rect 33 52 39 69
 rect 53 58 59 69
@@ -284,9 +308,15 @@ rect 194 36 199 39
 rect 143 17 149 25
 rect 168 24 173 28
 rect 225 17 229 28
-rect 6 13 183 17
-rect 188 13 246 17
-rect 6 9 246 13
+rect 6 10 28 17
+rect 42 10 91 17
+rect 105 10 154 17
+rect 168 13 183 17
+rect 188 13 194 17
+rect 168 10 194 13
+rect 208 10 223 17
+rect 237 10 246 17
+rect 6 9 246 10
 << m2contact >>
 rect 104 58 110 64
 rect 7 37 13 43
@@ -411,7 +441,7 @@ rect 32 58 39 65
 rect 6 58 32 65
 rect 39 58 246 65
 << labels >>
-rlabel metal1 230 73 230 73 7 Vdd
+rlabel nsubstratencontact 230 73 230 73 7 Vdd
 rlabel metal5 7 62 7 62 3 y
 rlabel m123contact 179 43 179 43 1 enable
 rlabel metal1 194 13 194 13 1 Gnd

@@ -1,0 +1,74 @@
+| units: 9 tech: scmos format: MIT
+p s0 nand_z mux_4_to_1_0/a_2_n43# 2 7 221 46
+p s1 mux_4_to_1_0/a_2_n43# m3_241_33# 2 7 231 46
+p s1 m3_241_33# mux_4_to_1_0/a_22_n43# 2 7 241 46
+p s0n mux_4_to_1_0/a_22_n43# or_z 2 7 251 46
+n s0n nand_z mux_4_to_1_0/a_2_n43# 2 5 221 21
+n m3_232_3# mux_4_to_1_0/a_2_n43# m3_241_33# 2 5 231 21
+n m3_232_3# m3_241_33# mux_4_to_1_0/a_22_n43# 2 5 241 21
+n s0 mux_4_to_1_0/a_22_n43# or_z 2 5 251 21
+p s0n nxor_z mux_4_to_1_0/a_62_n43# 2 7 281 46
+p s1n mux_4_to_1_0/a_62_n43# out 2 7 291 46
+p s1n out mux_4_to_1_0/a_82_n43# 2 7 301 46
+p s0 mux_4_to_1_0/a_82_n43# mux_4_to_1_0/in_10 2 7 311 46
+n s0 nxor_z mux_4_to_1_0/a_62_n43# 2 5 281 21
+n m3_300_3# mux_4_to_1_0/a_62_n43# out 2 5 291 21
+n m3_300_3# out mux_4_to_1_0/a_82_n43# 2 5 301 21
+n s0n mux_4_to_1_0/a_82_n43# mux_4_to_1_0/in_10 2 5 311 21
+p xor_z nxor_z Vdd 2 6 101 49
+p or_a or_z a_113_39# 2 6 111 39
+p or_b a_113_39# Vdd 2 6 121 43
+p xor_a Vdd a_133_23# 2 6 131 43
+p a_141_36# a_133_23# xor_z 2 6 141 43
+p xor_b xor_z xor_a 2 6 151 43
+n xor_z nxor_z Gnd 2 4 101 23
+n or_a Gnd or_z 2 4 111 23
+n or_b or_z Gnd 2 4 121 23
+n xor_a Gnd a_133_23# 2 4 131 23
+n xor_b a_133_23# xor_z 2 4 141 23
+n a_141_36# xor_z xor_a 2 4 151 23
+p xor_b a_141_36# Vdd 2 6 171 43
+p nand_a Vdd nand_z 2 6 181 43
+p a_199_13# Vdd a_203_19# 2 6 201 51
+p nand_b nand_z Vdd 2 6 191 43
+n nand_b a_183_23# nand_z 2 4 191 27
+n xor_b a_141_36# Gnd 2 4 171 23
+n nand_a Gnd a_183_23# 2 4 181 23
+n a_199_13# Gnd a_203_19# 2 4 201 19
+R a_183_23# 20
+R a_203_19# 25
+R a_199_13# 185
+R nand_b 174
+R nand_a 174
+R a_161_12# 185
+R xor_b 339
+R a_141_36# 207
+R a_133_23# 27
+R a_113_39# 18
+R xor_a 183
+R or_b 174
+R or_a 174
+R xor_z 210
+R a_91_12# 185
+R Gnd 126
+R Vdd 115
+R mux_4_to_1_0/a_100_n51# 177
+R m3_300_3# 166
+R mux_4_to_1_0/in_10 33
+R mux_4_to_1_0/a_82_n43# 20
+R out 20
+R mux_4_to_1_0/a_62_n43# 20
+R nxor_z 90
+R s1n 151
+R mux_4_to_1_0/a_50_n51# 177
+R mux_4_to_1_0/a_40_n51# 177
+R m3_232_3# 166
+R or_z 92
+R mux_4_to_1_0/a_22_n43# 20
+R m3_241_33# 20
+R mux_4_to_1_0/a_2_n43# 20
+R nand_z 97
+R s0n 341
+R s1 151
+R s0 340
+R a_211_12# 185
