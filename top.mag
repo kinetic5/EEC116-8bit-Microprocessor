@@ -1,0 +1,103 @@
+magic
+tech scmos
+timestamp 1576183219
+<< metal6 >>
+rect 19632 14394 19993 14457
+rect 19639 13531 19993 13594
+rect 19627 12649 19995 12712
+rect 19636 11740 19996 11803
+rect 19634 10863 19999 10926
+rect 19627 9997 20002 10060
+rect 19636 9079 20005 9142
+rect 19625 8199 20008 8262
+rect 19625 7337 20012 7400
+rect 19641 6462 20016 6525
+rect 19632 5549 20017 5612
+rect 19627 4655 19922 4718
+rect 12171 -419 12234 73
+rect 12963 -75 13026 55
+rect 13899 -52 13962 55
+rect 12963 -138 13030 -75
+rect 13760 -100 13962 -52
+rect 14963 -71 15026 41
+rect 14963 -92 15040 -71
+rect 13760 -115 14520 -100
+rect 13760 -138 13823 -115
+rect 12967 -304 13030 -138
+rect 13895 -163 14520 -115
+rect 14975 -138 15040 -92
+rect 12967 -367 13411 -304
+rect 13348 -427 13411 -367
+rect 14457 -437 14520 -163
+rect 14977 -234 15040 -138
+rect 14977 -297 15748 -234
+rect 15685 -427 15748 -297
+use chip  chip_0
+timestamp 1576182325
+transform 1 0 3013 0 1 17237
+box -3013 -17237 16677 2672
+use ninepf  ninepf_11
+timestamp 1085807705
+transform 1 0 20045 0 1 13965
+box -52 60 3722 857
+use ninepf  ninepf_10
+timestamp 1085807705
+transform 1 0 20045 0 1 13097
+box -52 60 3722 857
+use ninepf  ninepf_9
+timestamp 1085807705
+transform 1 0 20047 0 1 12220
+box -52 60 3722 857
+use ninepf  ninepf_8
+timestamp 1085807705
+transform 1 0 20048 0 1 11311
+box -52 60 3722 857
+use ninepf  ninepf_7
+timestamp 1085807705
+transform 1 0 20051 0 1 10434
+box -52 60 3722 857
+use ninepf  ninepf_6
+timestamp 1085807705
+transform 1 0 20054 0 1 9563
+box -52 60 3722 857
+use ninepf  ninepf_5
+timestamp 1085807705
+transform 1 0 20057 0 1 8650
+box -52 60 3722 857
+use ninepf  ninepf_4
+timestamp 1085807705
+transform 1 0 20060 0 1 7770
+box -52 60 3722 857
+use ninepf  ninepf_3
+timestamp 1085807705
+transform 1 0 20064 0 1 6903
+box -52 60 3722 857
+use ninepf  ninepf_2
+timestamp 1085807705
+transform 1 0 20068 0 1 6031
+box -52 60 3722 857
+use ninepf  ninepf_1
+timestamp 1085807705
+transform 1 0 20069 0 1 5115
+box -52 60 3722 857
+use ninepf  ninepf_0
+timestamp 1085807705
+transform 1 0 19974 0 1 4226
+box -52 60 3722 857
+use ninepf  ninepf_12
+timestamp 1085807705
+transform 0 1 11737 -1 0 -471
+box -52 60 3722 857
+use ninepf  ninepf_13
+timestamp 1085807705
+transform 0 1 12914 -1 0 -479
+box -52 60 3722 857
+use ninepf  ninepf_14
+timestamp 1085807705
+transform 0 1 14028 -1 0 -489
+box -52 60 3722 857
+use ninepf  ninepf_15
+timestamp 1085807705
+transform 0 1 15251 -1 0 -479
+box -52 60 3722 857
+<< end >>
