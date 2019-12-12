@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1576123989
+timestamp 1576124467
 << error_p >>
 rect 23 282 24 283
 rect 22 281 23 282
@@ -1260,9 +1260,9 @@ rect -12 52 2 118
 rect -237 84 -234 89
 rect -30 52 -12 118
 use input_driver  input_driver_0
-timestamp 1576119426
+timestamp 1576123792
 transform 1 0 -244 0 1 35
-box 0 0 230 100
+box 0 -2 230 102
 << labels >>
 rlabel metal1 -31 162 -31 162 1 Vdd
 rlabel metal1 -30 7 -30 7 1 Gnd
