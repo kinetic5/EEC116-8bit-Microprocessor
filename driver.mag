@@ -1,24 +1,24 @@
 magic
 tech scmos
-timestamp 1576013433
+timestamp 1576117405
 << ntransistor >>
 rect 6 -44 8 -34
 rect 16 -44 18 -34
 rect 26 -44 28 -34
 rect 36 -44 38 -34
-rect 46 -46 48 -34
-rect 56 -46 58 -34
-rect 66 -46 68 -34
-rect 76 -46 78 -34
+rect 46 -48 48 -34
+rect 56 -48 58 -34
+rect 66 -48 68 -34
+rect 76 -48 78 -34
 << ptransistor >>
 rect 6 -20 8 -6
 rect 16 -20 18 -6
 rect 26 -20 28 -6
 rect 36 -20 38 -6
-rect 46 -22 48 -4
-rect 56 -22 58 -4
-rect 66 -22 68 -4
-rect 76 -22 78 -4
+rect 46 -22 48 0
+rect 56 -22 58 0
+rect 66 -22 68 0
+rect 76 -22 78 0
 << ndiffusion >>
 rect 5 -44 6 -34
 rect 8 -35 16 -34
@@ -30,16 +30,22 @@ rect 28 -44 29 -34
 rect 35 -44 36 -34
 rect 38 -44 39 -34
 rect 45 -46 46 -34
+rect 39 -48 46 -46
 rect 48 -35 56 -34
 rect 48 -46 49 -35
 rect 55 -46 56 -35
+rect 48 -48 56 -46
 rect 58 -46 59 -34
 rect 65 -46 66 -34
+rect 58 -48 66 -46
 rect 68 -35 76 -34
 rect 68 -46 69 -35
 rect 75 -46 76 -35
+rect 68 -48 76 -46
 rect 78 -46 79 -34
+rect 78 -48 85 -46
 << pdiffusion >>
+rect 39 -4 46 0
 rect 5 -20 6 -6
 rect 8 -19 9 -6
 rect 15 -19 16 -6
@@ -50,14 +56,18 @@ rect 28 -20 29 -6
 rect 35 -20 36 -6
 rect 38 -20 39 -6
 rect 45 -22 46 -4
+rect 48 -4 56 0
 rect 48 -21 49 -4
 rect 55 -21 56 -4
 rect 48 -22 56 -21
+rect 58 -4 66 0
 rect 58 -22 59 -4
 rect 65 -22 66 -4
+rect 68 -4 76 0
 rect 68 -21 69 -4
 rect 75 -21 76 -4
 rect 68 -22 76 -21
+rect 78 -4 85 0
 rect 78 -22 79 -4
 << ndcontact >>
 rect -1 -44 5 -34
@@ -76,11 +86,11 @@ rect -4 -49 -2 -1
 rect 6 -6 8 -1
 rect 16 -6 18 -1
 rect 26 -6 28 -1
-rect 36 -6 38 -1
-rect 46 -4 48 -1
-rect 56 -4 58 -1
-rect 66 -4 68 -1
-rect 76 -4 78 -1
+rect 36 -6 38 1
+rect 46 0 48 3
+rect 56 0 58 3
+rect 66 0 68 3
+rect 76 0 78 3
 rect 6 -25 8 -20
 rect 16 -25 18 -20
 rect 26 -25 28 -20
@@ -100,12 +110,12 @@ rect 76 -34 78 -31
 rect 6 -49 8 -44
 rect 16 -49 18 -44
 rect 26 -49 28 -44
-rect 36 -49 38 -44
-rect 46 -49 48 -46
-rect 56 -49 58 -46
-rect 66 -49 68 -46
-rect 76 -49 78 -46
-rect 86 -49 88 -1
+rect 36 -51 38 -44
+rect 46 -53 48 -48
+rect 56 -53 58 -48
+rect 66 -53 68 -48
+rect 76 -51 78 -48
+rect 86 -51 88 3
 << polycontact >>
 rect 14 -31 20 -25
 rect 24 -31 30 -25

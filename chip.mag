@@ -1,9 +1,6 @@
 magic
 tech scmos
-timestamp 1576013044
-<< error_p >>
-rect 15432 1541 15433 1545
-rect 15436 1539 15437 1541
+timestamp 1576119915
 << metal1 >>
 rect 13304 1943 13975 2669
 rect 13304 1569 13308 1943
@@ -366,7 +363,7 @@ rect -7 -16313 662 -15992
 rect 14468 -16204 15752 -16090
 << metal4 >>
 rect 13304 1549 13975 2669
-rect 1879 1539 15433 1549
+rect 1879 1539 15436 1549
 rect 15529 1541 15770 1549
 rect -1767 1538 15436 1539
 rect -1767 1220 13299 1538
@@ -611,6 +608,10 @@ use pad  pad_32
 timestamp 1575998002
 transform 0 1 -2998 -1 0 -662
 box -3 -4 672 668
+use input_driver  input_driver_0
+timestamp 1576001165
+transform 0 1 1186 -1 0 -725
+box 0 0 230 100
 use pad  pad_16
 timestamp 1575998002
 transform 0 1 16001 -1 0 -645
@@ -659,21 +660,30 @@ use pad  pad_38
 timestamp 1575998002
 transform 0 1 -2998 -1 0 -5996
 box -3 -4 672 668
-use pad  pad_22
-timestamp 1575998002
-transform 0 1 16001 -1 0 -5979
-box -3 -4 672 668
 use pad  pad_39
 timestamp 1575998002
 transform 0 1 -2998 -1 0 -6885
 box -3 -4 672 668
-use pad  pad_23
-timestamp 1575998002
-transform 0 1 16001 -1 0 -6868
-box -3 -4 672 668
 use pad  pad_40
 timestamp 1575998002
 transform 0 1 -2998 -1 0 -7774
+box -3 -4 672 668
+use core  core_0
+timestamp 1576119657
+transform 1 0 6186 0 1 -8168
+box -322 -73 2624 656
+use output_driver  output_driver_0
+array 0 0 517 0 7 321
+timestamp 1576006893
+transform 1 0 9640 0 1 -8344
+box -244 -77 273 244
+use pad  pad_22
+timestamp 1575998002
+transform 0 1 16001 -1 0 -5979
+box -3 -4 672 668
+use pad  pad_23
+timestamp 1575998002
+transform 0 1 16001 -1 0 -6868
 box -3 -4 672 668
 use pad  pad_24
 timestamp 1575998002
@@ -683,6 +693,11 @@ use pad  pad_41
 timestamp 1575998002
 transform 0 1 -2998 -1 0 -8663
 box -3 -4 672 668
+use output_driver  output_driver_1
+array 0 0 517 0 7 321
+timestamp 1576006893
+transform 0 1 6754 -1 0 -8859
+box -244 -77 273 244
 use pad  pad_25
 timestamp 1575998002
 transform 0 1 16001 -1 0 -8646
