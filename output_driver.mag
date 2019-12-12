@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1576124744
+timestamp 1576137657
 << nwell >>
 rect -27 131 852 301
 rect -20 126 852 131
@@ -1250,7 +1250,7 @@ rect -12 52 2 118
 rect -237 84 -234 89
 rect -30 52 -12 118
 use input_driver  input_driver_0
-timestamp 1576124705
+timestamp 1576130499
 transform 1 0 -244 0 1 35
 box 0 0 231 100
 << labels >>
