@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1576135017
+timestamp 1576183030
 << nwell >>
 rect -8 -26 92 11
 rect 1 -27 92 -26
@@ -89,8 +89,8 @@ rect 39 -22 45 -4
 rect 59 -22 65 -4
 rect 79 -22 85 -4
 << psubstratepcontact >>
-rect -2 -58 8 -51
-rect 26 -58 36 -52
+rect 2 -58 8 -51
+rect 28 -58 36 -52
 rect 56 -58 72 -53
 << nsubstratencontact >>
 rect -2 1 9 8
@@ -160,9 +160,9 @@ rect 19 -51 25 -44
 rect 39 -51 45 -46
 rect 59 -51 65 -46
 rect 79 -51 85 -46
-rect -8 -58 -2 -51
+rect -8 -58 2 -51
 rect 8 -52 92 -51
-rect 8 -58 26 -52
+rect 8 -58 28 -52
 rect 36 -53 92 -52
 rect 36 -58 56 -53
 rect 72 -58 92 -53
