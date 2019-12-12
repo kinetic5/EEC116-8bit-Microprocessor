@@ -6,7 +6,7 @@
 # 2019/12/07  Written
 
 # Simulation stepsize. Modify this as needed to test the speed of your design.
-stepsize 1.375
+stepsize 1.44
 
 
 clock clk 0 1
