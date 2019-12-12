@@ -1,6 +1,10 @@
 magic
 tech scmos
+<<<<<<< Updated upstream:core_well_done.mag
 timestamp 1576135017
+=======
+timestamp 1576135760
+>>>>>>> Stashed changes:core.mag
 << pwell >>
 rect 2267 360 2280 393
 rect 1253 14 1266 37
@@ -1849,11 +1853,19 @@ timestamp 1576135017
 transform 1 0 873 0 1 144
 box 85 0 867 553
 use inv_9_6  inv_9_6_0
+<<<<<<< Updated upstream:core_well_done.mag
 timestamp 1576135017
 transform 1 0 -320 0 1 134
 box 0 -62 30 10
 use inv_9_6  inv_9_6_3
 timestamp 1576135017
+=======
+timestamp 1576135760
+transform 1 0 -320 0 1 134
+box 0 -62 30 10
+use inv_9_6  inv_9_6_3
+timestamp 1576135760
+>>>>>>> Stashed changes:core.mag
 transform 1 0 -290 0 1 134
 box 0 -62 30 10
 use clock_driver  clock_driver_0
@@ -1881,7 +1893,11 @@ timestamp 1576135017
 transform 1 0 -210 0 1 63
 box 0 -63 150 9
 use inv_9_6  inv_9_6_2
+<<<<<<< Updated upstream:core_well_done.mag
 timestamp 1576135017
+=======
+timestamp 1576135760
+>>>>>>> Stashed changes:core.mag
 transform 1 0 -70 0 1 62
 box 0 -62 30 10
 use driver  driver_15
@@ -1897,7 +1913,11 @@ timestamp 1576135017
 transform 1 0 160 0 1 63
 box 0 -63 150 9
 use inv_9_6  inv_9_6_1
+<<<<<<< Updated upstream:core_well_done.mag
 timestamp 1576135017
+=======
+timestamp 1576135760
+>>>>>>> Stashed changes:core.mag
 transform 1 0 300 0 1 62
 box 0 -62 30 10
 use driver  driver_13

@@ -1,6 +1,10 @@
 magic
 tech scmos
+<<<<<<< Updated upstream
 timestamp 1576135017
+=======
+timestamp 1576135760
+>>>>>>> Stashed changes
 << nwell >>
 rect 0 -27 30 10
 << pwell >>
@@ -19,6 +23,10 @@ rect 16 -21 17 -12
 rect 7 -37 13 -33
 << pdcontact >>
 rect 7 -21 13 -12
+<< psubstratepcontact >>
+rect 11 -59 21 -53
+<< nsubstratencontact >>
+rect 11 0 21 6
 << polysilicon >>
 rect 4 -50 6 -2
 rect 14 -12 16 -2
@@ -29,10 +37,15 @@ rect 24 -50 26 -2
 << polycontact >>
 rect 13 -30 18 -24
 << metal1 >>
-rect 0 0 30 8
+rect 0 6 30 8
+rect 0 0 11 6
+rect 21 0 30 6
 rect 7 -12 13 0
 rect 7 -52 13 -37
-rect 0 -60 30 -52
+rect 0 -53 30 -52
+rect 0 -59 11 -53
+rect 21 -59 30 -53
+rect 0 -60 30 -59
 << pdm12contact >>
 rect 17 -21 23 -12
 << ndm12contact >>
