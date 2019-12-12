@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1576001165
+timestamp 1576119426
 << ntransistor >>
 rect 14 27 16 33
 rect 24 27 26 33
@@ -364,4 +364,6 @@ rect 4 40 13 63
 << labels >>
 rlabel m123contact 8 51 8 51 1 in
 rlabel m3contact 227 45 227 45 7 out
+rlabel metal1 75 92 75 92 1 Vdd
+rlabel metal1 73 3 73 3 1 Gnd
 << end >>
