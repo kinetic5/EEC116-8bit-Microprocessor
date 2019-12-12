@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1576135017
+timestamp 1576183136
 << metal2 >>
 rect 536 -144 542 -141
 rect 776 -216 782 -213
@@ -11,7 +11,7 @@ rect 1496 -432 1502 -428
 rect 1438 -381 1448 -374
 use mult_and  mult_and_0
 array 0 7 240 0 0 72
-timestamp 1576135017
+timestamp 1576183030
 transform 1 0 -488 0 1 64
 box 247 8 504 80
 use mult_hadder  mult_hadder_0
@@ -20,7 +20,7 @@ transform 1 0 -7 0 1 -7
 box 6 7 257 79
 use mult_fadder  mult_fadder_0
 array 0 5 240 0 0 72
-timestamp 1576133447
+timestamp 1576183136
 transform 1 0 233 0 1 -8
 box 6 8 246 80
 use mult_hadder  mult_hadder_1
@@ -29,7 +29,7 @@ transform 1 0 233 0 1 -79
 box 6 7 257 79
 use mult_fadder  mult_fadder_1
 array 0 4 240 0 0 72
-timestamp 1576133447
+timestamp 1576183136
 transform 1 0 473 0 1 -80
 box 6 8 246 80
 use mult_hadder  mult_hadder_2
@@ -38,7 +38,7 @@ transform 1 0 473 0 1 -151
 box 6 7 257 79
 use mult_fadder  mult_fadder_2
 array 0 3 240 0 0 72
-timestamp 1576133447
+timestamp 1576183136
 transform 1 0 713 0 1 -152
 box 6 8 246 80
 use mult_hadder  mult_hadder_3
@@ -47,7 +47,7 @@ transform 1 0 713 0 1 -223
 box 6 7 257 79
 use mult_fadder  mult_fadder_3
 array 0 2 240 0 0 72
-timestamp 1576133447
+timestamp 1576183136
 transform 1 0 953 0 1 -224
 box 6 8 246 80
 use mult_hadder  mult_hadder_4
@@ -56,7 +56,7 @@ transform 1 0 953 0 1 -295
 box 6 7 257 79
 use mult_fadder  mult_fadder_4
 array 0 1 240 0 0 72
-timestamp 1576133447
+timestamp 1576183136
 transform 1 0 1193 0 1 -296
 box 6 8 246 80
 use mult_hadder  mult_hadder_5
@@ -64,7 +64,7 @@ timestamp 1576133447
 transform 1 0 1193 0 1 -367
 box 6 7 257 79
 use mult_fadder  mult_fadder_5
-timestamp 1576133447
+timestamp 1576183136
 transform 1 0 1433 0 1 -368
 box 6 8 246 80
 use mult_hadder  mult_hadder_6
