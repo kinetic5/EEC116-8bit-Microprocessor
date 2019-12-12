@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1576135017
+timestamp 1576182214
 << nwell >>
 rect 85 37 327 72
 rect 85 33 178 37
@@ -289,9 +289,9 @@ rect 300 3 302 5
 rect 111 51 200 58
 rect 215 51 327 58
 use mux_4_to_1  mux_4_to_1_0
-timestamp 1576135017
+timestamp 1576182214
 transform 1 0 221 0 1 64
-box -14 -62 646 489
+box -14 -62 106 6
 << labels >>
 rlabel m2contact 167 56 167 56 1 xor_b
 rlabel pdm12contact 157 48 157 48 1 xor_a

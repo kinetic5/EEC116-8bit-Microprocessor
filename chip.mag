@@ -1,6 +1,14 @@
 magic
 tech scmos
-timestamp 1576137657
+timestamp 1576182325
+<< error_s >>
+rect 7642 -7660 7643 -7654
+rect 7402 -7672 7406 -7668
+rect 8405 -7710 8406 -7709
+rect 8405 -7783 8406 -7779
+rect 7597 -7804 7599 -7798
+rect 8687 -8092 8689 -8087
+rect 8659 -8164 8663 -8158
 << pwell >>
 rect 6083 -8508 6125 -8485
 rect 6083 -8527 6087 -8508
@@ -1940,9 +1948,9 @@ timestamp 1576137657
 transform 0 -1 7676 1 0 -7124
 box -244 -133 854 301
 use core  core_0
-timestamp 1576127674
+timestamp 1576182214
 transform 1 0 6186 0 1 -8168
-box -322 -73 2624 656
+box -327 -73 2866 669
 use input_driver  input_driver_1
 array 0 0 230 0 7 -104
 timestamp 1576130499
